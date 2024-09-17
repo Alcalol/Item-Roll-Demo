@@ -3,15 +3,6 @@
 #pragma once
 
 UENUM(BlueprintType)
-enum class EItemRarity : uint8
-{
-	RARITY_Common UMETA(DisplayName = "Common"),
-	RARITY_Rare UMETA(DisplayName = "Rare"),
-	RARITY_Legendary UMETA(DisplayName = "Legendary"),
-	RARITY_Mythical UMETA(DisplayName = "Mythical")
-};
-
-UENUM(BlueprintType)
 enum class EItemType : uint8
 {
 	ITEM_Weapon UMETA(DisplayName = "Weapon"),
