@@ -7,6 +7,7 @@ enum class EItemRarity : uint8
 {
 	RARITY_Common UMETA(DisplayName = "Common"),
 	RARITY_Rare UMETA(DisplayName = "Rare"),
+	RARITY_Heroic UMETA(DisplayName = "Heroic"),
 	RARITY_Legendary UMETA(DisplayName = "Legendary"),
 	RARITY_Mythical UMETA(DisplayName = "Mythical")
 };
