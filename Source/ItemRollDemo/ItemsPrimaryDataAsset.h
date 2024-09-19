@@ -11,7 +11,7 @@
  * 
  */
 
-USTRUCT()
+USTRUCT(BlueprintType)
 struct FItemRangeEntry
 {
 	GENERATED_BODY()
@@ -30,6 +30,33 @@ UCLASS()
 class ITEMROLLDEMO_API UItemsPrimaryDataAsset : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
+
+public:
+	UFUNCTION(BlueprintCallable)
+	const EItemType GetItemType() const;
+
+	UFUNCTION(BlueprintCallable)
+	const FName GetItemName() const;
+
+	UFUNCTION(BlueprintCallable)
+	const FString GetItemDescription() const;
+
+	UFUNCTION(BlueprintCallable)
+	const UTexture2D* GetItemImage() const;
+
+	UFUNCTION(BlueprintCallable)
+	const UStaticMesh* GetItemStaticMesh() const;
+
+	UFUNCTION(BlueprintCallable)
+	const EItemRarity GetItemRarity() const;
+
+	UFUNCTION(BlueprintCallable)
+	const TArray<FItemRangeEntry> GetItemAllowedEffects() const;
+
+	UFUNCTION(BlueprintCallable)
+	const int GetItemAllowedEffectsCount() const;
+
+private:
 
 	// The type of item (slot) this is
 	UPROPERTY(EditAnywhere)
