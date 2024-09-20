@@ -2,9 +2,13 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "ItemTypes.h"
 #include "ItemSpawnerPlatform.generated.h"
+
+class UItemGameInstance;
+class AItemActor;
+class USceneComponent;
 
 UCLASS()
 class ITEMROLLDEMO_API AItemSpawnerPlatform : public AActor
@@ -12,15 +16,23 @@ class ITEMROLLDEMO_API AItemSpawnerPlatform : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	AItemSpawnerPlatform();
 
+	void SpawnNewItem(EItemRarity* ItemRarity, EItemType* ItemType);
+
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
+	TSubclassOf<AItemActor> DefaultItemActor;
 
+	UPROPERTY(EditDefaultsOnly)
+	USceneComponent* ItemSpawnLocator;
+
+private:
+	UPROPERTY()
+	UItemGameInstance* GameInstance;
+
+	UPROPERTY()
+	AItemActor* CurrentItemActor;
 };

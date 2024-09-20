@@ -9,6 +9,7 @@ class UStaticMeshComponent;
 class UStaticMesh;
 class UItemsPrimaryDataAsset;
 class UNiagaraSystem;
+class UNiagaraComponent;
 
 UCLASS()
 class ITEMROLLDEMO_API AItemActor : public AActor
@@ -19,15 +20,30 @@ public:
 
 	AItemActor();
 
+	bool ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset);
+	
+	const UItemsPrimaryDataAsset* GetItemData();
+
 protected:
 	UPROPERTY()
 	UStaticMeshComponent* ItemStaticMeshComponent;
 
+	UPROPERTY()
+	UNiagaraComponent* ItemNiagaraComponent;
+
 	UPROPERTY(EditDefaultsOnly)
-	UNiagaraSystem* ItemNiagaraEffect;
+	UNiagaraSystem* ItemNiagaraSystem;
 
 	UPROPERTY(EditDefaultsOnly)
 	UItemsPrimaryDataAsset* ItemData;
 
 	virtual void BeginPlay() override;
+
+	bool UpdateStaticMesh();
+
+	FColor GetItemRarityColor();
+
+	void StartNiagaraEffect();
+
+	void StopNiagaraEffect();
 };

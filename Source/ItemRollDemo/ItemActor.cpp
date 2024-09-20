@@ -3,6 +3,10 @@
 
 #include "ItemActor.h"
 #include "Components/StaticMeshComponent.h"
+#include "ItemTypes.h"
+#include "ItemRarityDataAsset.h"
+#include "ItemGameInstance.h"
+#include "Kismet/GameplayStatics.h"
 #include "Engine/StaticMesh.h"
 #include "ItemsPrimaryDataAsset.h"
 #include "NiagaraFunctionLibrary.h"
@@ -19,14 +23,76 @@ AItemActor::AItemActor()
 	ItemStaticMeshComponent->SetupAttachment(RootComponent);
 }
 
+bool AItemActor::ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset)
+{
+	StopNiagaraEffect();
+
+	ItemData = ItemDataAsset;
+
+	StartNiagaraEffect();
+
+	return UpdateStaticMesh();
+}
+
+const UItemsPrimaryDataAsset* AItemActor::GetItemData()
+{
+	return ItemData;
+}
+
 // Called when the game starts or when spawned
 void AItemActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (ItemData)
+	if (ItemNiagaraSystem)
+	{
+		ItemNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(ItemNiagaraSystem, ItemStaticMeshComponent, NAME_None, FVector(0.0f), FRotator(0.0f), EAttachLocation::SnapToTargetIncludingScale, true, false);
+	}
+
+	StartNiagaraEffect();
+
+	UpdateStaticMesh();
+}
+
+bool AItemActor::UpdateStaticMesh()
+{
+	if (ItemData && ItemStaticMeshComponent)
 	{
 		ItemStaticMeshComponent->SetStaticMesh(ItemData->GetItemStaticMesh());
+
+		return true;
 	}
+
+	return false;
+}
+
+FColor AItemActor::GetItemRarityColor()
+{
+	UItemGameInstance* GameInstance = Cast<UItemGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+	UItemRarityDataAsset* RarityDataAsset = GameInstance->RarityDataAsset;
+
+	if (RarityDataAsset)
+	{
+		return RarityDataAsset->GetRarityColor(ItemData->GetItemRarity());
+	}
+
+	return FColor();
+
+}
+
+void AItemActor::StartNiagaraEffect()
+{
+	if (ItemData)
+	{
+		ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), GetItemRarityColor());
+	}
+
+	ItemNiagaraComponent->Activate();
+}
+
+void AItemActor::StopNiagaraEffect()
+{
+	ItemNiagaraComponent->Deactivate();
 }
 

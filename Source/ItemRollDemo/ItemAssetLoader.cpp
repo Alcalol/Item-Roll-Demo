@@ -12,7 +12,7 @@ void UItemAssetLoader::InitItemAssetLoader()
 	InsertAssetsToMap(AssetDataArray);
 }
 
-const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
+UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 {
 	if (ItemsArray.Num() > 0)
 	{
@@ -26,7 +26,7 @@ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	}
 }
 
-const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const
+UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const
 {
 	TArray<EItemRarity> RarityArray;
 	TArray<EItemType> TypeArray;

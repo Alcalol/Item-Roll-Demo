@@ -26,6 +26,8 @@ struct FItemRangeEntry
 	float MaxValue;
 };
 
+class UItemGameInstance;
+
 UCLASS()
 class ITEMROLLDEMO_API UItemsPrimaryDataAsset : public UPrimaryDataAsset
 {
@@ -89,6 +91,9 @@ private:
 	// The number of effects this item can have
 	UPROPERTY(EditAnywhere)
 	int AllowedEffectsCount;
+
+	UPROPERTY()
+	UItemGameInstance* GameInstance;
 
 	FPrimaryAssetId GetPrimaryAssetId() const override;
 };
