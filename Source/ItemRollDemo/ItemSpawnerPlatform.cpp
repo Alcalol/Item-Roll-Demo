@@ -34,8 +34,7 @@ void AItemSpawnerPlatform::SpawnNewItem(EItemRarity* ItemRarity, EItemType* Item
 
 		if (NewItemDataAsset && ItemSpawnLocator)
 		{
-			FTransform ActorTransform = ItemSpawnLocator->GetComponentTransform();
-			CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ActorTransform));
+			CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ItemSpawnLocator->GetComponentTransform()));
 
 			if (CurrentItemActor)
 			{

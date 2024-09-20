@@ -86,9 +86,9 @@ void AItemActor::StartNiagaraEffect()
 	if (ItemData)
 	{
 		ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), GetItemRarityColor());
-	}
 
-	ItemNiagaraComponent->Activate();
+		ItemNiagaraComponent->Activate();
+	}
 }
 
 void AItemActor::StopNiagaraEffect()
