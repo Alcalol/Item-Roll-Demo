@@ -8,42 +8,42 @@ FPrimaryAssetId UItemsPrimaryDataAsset::GetPrimaryAssetId() const
 	return FPrimaryAssetId("Item", ItemName);
 }
 
-const EItemType UItemsPrimaryDataAsset::GetItemType() const
+EItemType UItemsPrimaryDataAsset::GetItemType() const
 {
 	return ItemType;
 }
 
-const FName UItemsPrimaryDataAsset::GetItemName() const
+FName UItemsPrimaryDataAsset::GetItemName() const
 {
 	return ItemName;
 }
 
-const FString UItemsPrimaryDataAsset::GetItemDescription() const
+FString UItemsPrimaryDataAsset::GetItemDescription() const
 {
 	return ItemDescription;
 }
 
-const UTexture2D* UItemsPrimaryDataAsset::GetItemImage() const
+UTexture2D* UItemsPrimaryDataAsset::GetItemImage() const
 {
 	return ItemImage;
 }
 
-const UStaticMesh* UItemsPrimaryDataAsset::GetItemStaticMesh() const
+UStaticMesh* UItemsPrimaryDataAsset::GetItemStaticMesh() const
 {
 	return ItemStaticMesh;
 }
 
-const EItemRarity UItemsPrimaryDataAsset::GetItemRarity() const
+EItemRarity UItemsPrimaryDataAsset::GetItemRarity() const
 {
 	return ItemRarity;
 }
 
-const TArray<FItemRangeEntry> UItemsPrimaryDataAsset::GetItemAllowedEffects() const
+TArray<FItemRangeEntry> UItemsPrimaryDataAsset::GetItemAllowedEffects() const
 {
 	return AllowedItemEffects;
 }
 
-const int UItemsPrimaryDataAsset::GetItemAllowedEffectsCount() const
+int UItemsPrimaryDataAsset::GetItemAllowedEffectsCount() const
 {
 	return AllowedEffectsCount;
 }
