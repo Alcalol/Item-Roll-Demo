@@ -33,28 +33,28 @@ class ITEMROLLDEMO_API UItemsPrimaryDataAsset : public UPrimaryDataAsset
 
 public:
 	UFUNCTION(BlueprintCallable)
-	const EItemType GetItemType() const;
+	EItemType GetItemType() const;
 
 	UFUNCTION(BlueprintCallable)
-	const FName GetItemName() const;
+	FName GetItemName() const;
 
 	UFUNCTION(BlueprintCallable)
-	const FString GetItemDescription() const;
+	FString GetItemDescription() const;
 
 	UFUNCTION(BlueprintCallable)
-	const UTexture2D* GetItemImage() const;
+	UTexture2D* GetItemImage() const;
 
 	UFUNCTION(BlueprintCallable)
-	const UStaticMesh* GetItemStaticMesh() const;
+	UStaticMesh* GetItemStaticMesh() const;
 
 	UFUNCTION(BlueprintCallable)
-	const EItemRarity GetItemRarity() const;
+	EItemRarity GetItemRarity() const;
 
 	UFUNCTION(BlueprintCallable)
-	const TArray<FItemRangeEntry> GetItemAllowedEffects() const;
+	TArray<FItemRangeEntry> GetItemAllowedEffects() const;
 
 	UFUNCTION(BlueprintCallable)
-	const int GetItemAllowedEffectsCount() const;
+	int GetItemAllowedEffectsCount() const;
 
 private:
 
