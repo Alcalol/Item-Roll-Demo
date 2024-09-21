@@ -20,6 +20,10 @@ public:
 
 	void SpawnNewItem();
 
+	// For blueprint to update any UI that monitors the new item
+	UFUNCTION(BlueprintImplementableEvent)
+	void ItemSpawnedEvent(UItemsPrimaryDataAsset* ItemDataAsset);
+
 protected:
 	virtual void BeginPlay() override;
 
