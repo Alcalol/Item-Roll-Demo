@@ -20,9 +20,9 @@ public:
 
 	void InitItemAssetLoader();
 
-	const UItemsPrimaryDataAsset* GetRandomItem() const;
+	UItemsPrimaryDataAsset* GetRandomItem() const;
 
-	const UItemsPrimaryDataAsset* GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const;
+	UItemsPrimaryDataAsset* GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const;
 
 private:
 

@@ -2,6 +2,8 @@
 
 
 #include "ItemsPrimaryDataAsset.h"
+#include "ItemGameInstance.h"
+#include "ItemRarityDataAsset.h"
 
 FPrimaryAssetId UItemsPrimaryDataAsset::GetPrimaryAssetId() const
 {

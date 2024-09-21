@@ -4,6 +4,7 @@
 
 #include "Engine/GameInstance.h"
 #include "ItemAssetLoader.h"
+#include "ItemRarityDataAsset.h"
 #include "ItemGameInstance.generated.h"
 
 class UItemsPrimaryDataAsset;
@@ -24,4 +25,6 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	UItemAssetLoader* ItemAssetLoader;
 
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly)
+	UItemRarityDataAsset* RarityDataAsset;
 };

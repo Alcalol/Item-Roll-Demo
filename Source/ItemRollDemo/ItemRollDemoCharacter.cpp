@@ -10,6 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "ItemSpawnerButton.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -86,6 +87,9 @@ void AItemRollDemoCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AItemRollDemoCharacter::Look);
+
+		//Interacting
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AItemRollDemoCharacter::Interact);
 	}
 	else
 	{
@@ -126,5 +130,22 @@ void AItemRollDemoCharacter::Look(const FInputActionValue& Value)
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
+	}
+}
+
+void AItemRollDemoCharacter::Interact(const FInputActionValue& Value)
+{
+	TArray<AActor*> Result;
+
+	GetOverlappingActors(Result, AItemSpawnerButton::StaticClass());
+
+	for (AActor* ButtonActor : Result)
+	{
+		AItemSpawnerButton* Button = Cast<AItemSpawnerButton>(ButtonActor);
+
+		if (Button)
+		{
+			Button->SpawnItems(nullptr, nullptr);
+		}
 	}
 }
