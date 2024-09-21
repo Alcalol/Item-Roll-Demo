@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "ItemActor.generated.h"
 
+class USceneComponent;
 class UStaticMeshComponent;
 class UStaticMesh;
 class UItemsPrimaryDataAsset;
@@ -20,7 +21,7 @@ public:
 
 	AItemActor();
 
-	bool ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset);
+	bool ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset, FColor ItemRarityColor);
 	
 	const UItemsPrimaryDataAsset* GetItemData();
 
@@ -39,9 +40,14 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	bool UpdateStaticMesh();
+private:
+	UPROPERTY()
+	USceneComponent* RootSceneComponent;
 
-	FColor GetItemRarityColor();
+	UPROPERTY()
+	FColor RarityColor;
+
+	bool UpdateStaticMesh();
 
 	void StartNiagaraEffect();
 

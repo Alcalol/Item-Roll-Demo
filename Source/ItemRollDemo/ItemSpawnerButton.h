@@ -18,7 +18,7 @@ class ITEMROLLDEMO_API AItemSpawnerButton : public AActor
 public:	
 	AItemSpawnerButton();
 
-	void SpawnItems(EItemRarity* ItemRarity, EItemType* ItemType);
+	void BroadcastSpawn();
 
 protected:
 

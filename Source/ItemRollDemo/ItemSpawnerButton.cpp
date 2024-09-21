@@ -18,11 +18,11 @@ AItemSpawnerButton::AItemSpawnerButton()
 	BoxCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
-void AItemSpawnerButton::SpawnItems(EItemRarity* ItemRarity, EItemType* ItemType)
+void AItemSpawnerButton::BroadcastSpawn()
 {
 	for (AItemSpawnerPlatform* Platform : ControlledPlatforms)
 	{
-		Platform->SpawnNewItem(ItemRarity, ItemType);
+		Platform->SpawnNewItem();
 	}
 }
 

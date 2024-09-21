@@ -2,11 +2,15 @@
 
 
 #include "ItemAssetLoader.h"
+#include "ItemRarityDataAsset.h"
 #include "ItemsPrimaryDataAsset.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 
-void UItemAssetLoader::InitItemAssetLoader()
+void UItemAssetLoader::InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset)
 {
+	GameInstance = CurrentGameInstance;
+	RarityDataAsset = ItemRarityDataAsset;
+
 	TArray<FAssetData> AssetDataArray = LoadGameItemsAssetData();
 
 	InsertAssetsToMap(AssetDataArray);
@@ -26,23 +30,11 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	}
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const
+UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
 {
-	TArray<EItemRarity> RarityArray;
-	TArray<EItemType> TypeArray;
+	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
 
-	if (ItemRarity)
-	{
-		RarityArray.Add(*ItemRarity);
-	}
-
-	if (ItemType)
-	{
-		TypeArray.Add(*ItemType);
-	}
-
-	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(RarityArray, TypeArray);
-
+	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
 	if (ItemPool.Num() > 0)
 	{
 		int ChosenIndex = FMath::RandRange(0, ItemPool.Num() - 1);
@@ -55,55 +47,28 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity,
 	}
 }
 
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarity(TArray<EItemRarity>& ItemRarities) const
-{
-	TArray<EItemType> BlankTypes;
-	return GetItemsByRarityAndType(ItemRarities, BlankTypes);
-}
-
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByType(TArray<EItemType>& ItemTypes) const
-{
-	TArray<EItemRarity> BlankRarities;
-	return GetItemsByRarityAndType(BlankRarities, ItemTypes);
-}
-
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
 const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
 {
-	TArray<UItemsPrimaryDataAsset*> CombinedItemsArray;
-	
-	CombinedItemsArray = ItemsArray;
+	// First generate a weighted random rarity from the given TArray
+	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
-	CombinedItemsArray = CombinedItemsArray.FilterByPredicate([&ItemRarities, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
+	// Filter out unwanted item types
+	TArray<UItemsPrimaryDataAsset*> FinalItemsArray;
+
+	FinalItemsArray = ItemsArray;
+
+	// If ItemType array is populated, also filter by type
+	FinalItemsArray = FinalItemsArray.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
 		bool bRarityMatch = false;
 		bool bTypeMatch = false;
 
-		if (ItemRarities.Num() > 0)
-		{
-			for (EItemRarity ItemRarity : ItemRarities)
-			{
-				if (Item->GetItemRarity() == ItemRarity)
-				{
-					bRarityMatch = true;
-				}
-			}
-		}
-		else
+		if (Item->GetItemRarity() == NewItemRarity)
 		{
 			bRarityMatch = true;
 		}
 
-		if (ItemTypes.Num() > 0)
-		{
-			for (EItemType ItemType : ItemTypes)
-			{
-				if (Item->GetItemType() == ItemType)
-				{
-					bTypeMatch = true;
-				}
-			}
-		}
-		else
+		if (ItemTypes.Num() == 0 || (ItemTypes.Num() > 0 && ItemTypes.Contains(Item->GetItemType())))
 		{
 			bTypeMatch = true;
 		}
@@ -111,12 +76,17 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 		return (bRarityMatch && bTypeMatch);
 	});
 
-	return CombinedItemsArray;
+	return FinalItemsArray;
 }
 
 const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
 {
 	return ItemsArray;
+}
+
+FColor UItemAssetLoader::GetItemRarityColor(EItemRarity ItemRarity)
+{
+	return RarityDataAsset->GetRarityColor(ItemRarity);;
 }
 
 // Get all item assets from asset registry

@@ -18,16 +18,24 @@ class ITEMROLLDEMO_API AItemSpawnerPlatform : public AActor
 public:	
 	AItemSpawnerPlatform();
 
-	void SpawnNewItem(EItemRarity* ItemRarity, EItemType* ItemType);
+	void SpawnNewItem();
 
 protected:
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditDefaultsOnly)
+	USceneComponent* ItemSpawnLocator;
+
 	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
 	TSubclassOf<AItemActor> DefaultItemActor;
 
-	UPROPERTY(EditDefaultsOnly)
-	USceneComponent* ItemSpawnLocator;
+	// The list rarities allowed to be spawned
+	UPROPERTY(EditInstanceOnly, Category = "Item Spawner Settings")
+	TArray<EItemRarity> AllowedItemRarities;
+
+	// The list of types of items(slots) allowed to be spawned
+	UPROPERTY(EditInstanceOnly, Category = "Item Spawner Settings")
+	TArray<EItemType> AllowedItemTypes;
 
 private:
 	UPROPERTY()

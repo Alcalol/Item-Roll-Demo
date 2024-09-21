@@ -3,6 +3,7 @@
 
 #include "ItemSpawnerPlatform.h"
 #include "ItemGameInstance.h"
+#include "ItemAssetLoader.h"
 #include "ItemActor.h"
 #include "ItemsPrimaryDataAsset.h"
 #include "Kismet/GameplayStatics.h"
@@ -20,7 +21,7 @@ AItemSpawnerPlatform::AItemSpawnerPlatform()
 	ItemSpawnLocator->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
-void AItemSpawnerPlatform::SpawnNewItem(EItemRarity* ItemRarity, EItemType* ItemType)
+void AItemSpawnerPlatform::SpawnNewItem()
 {
 	if (GameInstance && DefaultItemActor)
 	{
@@ -30,21 +31,25 @@ void AItemSpawnerPlatform::SpawnNewItem(EItemRarity* ItemRarity, EItemType* Item
 			CurrentItemActor = nullptr;
 		}
 
-		UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->ItemAssetLoader->GetRandomItem(ItemRarity, ItemType);
+		UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
 
 		if (NewItemDataAsset && ItemSpawnLocator)
 		{
+			EItemRarity NewRarity = NewItemDataAsset->GetItemRarity();
+
+			const UItemRarityDataAsset* NewRarityAsset = GameInstance->GetRarityDataAsset();
+			FColor NewItemRarityColor = NewRarityAsset->GetRarityColor(NewRarity);
+
 			CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ItemSpawnLocator->GetComponentTransform()));
 
 			if (CurrentItemActor)
 			{
-				CurrentItemActor->ChangeItem(NewItemDataAsset);
+				CurrentItemActor->ChangeItem(NewItemDataAsset, NewItemRarityColor);
 			}
 		}
 	}
 }
 
-// Called when the game starts or when spawned
 void AItemSpawnerPlatform::BeginPlay()
 {
 	Super::BeginPlay();

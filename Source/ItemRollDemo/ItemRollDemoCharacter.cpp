@@ -145,7 +145,7 @@ void AItemRollDemoCharacter::Interact(const FInputActionValue& Value)
 
 		if (Button)
 		{
-			Button->SpawnItems(nullptr, nullptr);
+			Button->BroadcastSpawn();
 		}
 	}
 }
