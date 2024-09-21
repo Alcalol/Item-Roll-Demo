@@ -21,7 +21,7 @@ struct FItemRarityEntry
 	FColor RarityColor;
 
 	UPROPERTY(EditAnywhere)
-	float RaritySpawnChance;
+	int RaritySpawnChance;
 };
 
 UCLASS()
@@ -31,6 +31,8 @@ class ITEMROLLDEMO_API UItemRarityDataAsset : public UDataAsset
 
 public:
 	FColor GetRarityColor(EItemRarity ItemRarity) const;
+
+	EItemRarity GetRandomRarityByWeight(TArray<EItemRarity>& RarityArray) const;
 
 protected:
 	UPROPERTY(EditAnywhere)

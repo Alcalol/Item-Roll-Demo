@@ -30,11 +30,11 @@ protected:
 	TSubclassOf<AItemActor> DefaultItemActor;
 
 	// The list rarities allowed to be spawned
-	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
+	UPROPERTY(EditInstanceOnly, Category = "Item Spawner Settings")
 	TArray<EItemRarity> AllowedItemRarities;
 
 	// The list of types of items(slots) allowed to be spawned
-	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
+	UPROPERTY(EditInstanceOnly, Category = "Item Spawner Settings")
 	TArray<EItemType> AllowedItemTypes;
 
 private:

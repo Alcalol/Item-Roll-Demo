@@ -37,13 +37,13 @@ private:
 	UPROPERTY()
 	UItemRarityDataAsset* RarityDataAsset;
 
-	TArray<FAssetData> LoadGameItemsAssetData();
-
-	void InsertAssetsToMap(TArray<FAssetData>& AssetDataArray);
-
 	const TArray<UItemsPrimaryDataAsset*> GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
 
 	const TArray<UItemsPrimaryDataAsset*> GetAllItems() const;
 
 	FColor GetItemRarityColor(EItemRarity ItemRarity);
+
+	TArray<FAssetData> LoadGameItemsAssetData();
+
+	void InsertAssetsToMap(TArray<FAssetData>& AssetDataArray);
 };

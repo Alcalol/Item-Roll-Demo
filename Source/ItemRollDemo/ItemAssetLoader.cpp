@@ -49,40 +49,25 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& Ite
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
 const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
 {
-	TArray<UItemsPrimaryDataAsset*> CombinedItemsArray;
-	
-	CombinedItemsArray = ItemsArray;
+	// First generate a weighted random rarity from the given TArray
+	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
-	CombinedItemsArray = CombinedItemsArray.FilterByPredicate([&ItemRarities, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
+	// Filter out unwanted item types
+	TArray<UItemsPrimaryDataAsset*> FinalItemsArray;
+
+	FinalItemsArray = ItemsArray;
+
+	// If ItemType array is populated, also filter by type
+	FinalItemsArray = FinalItemsArray.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
 		bool bRarityMatch = false;
 		bool bTypeMatch = false;
 
-		if (ItemRarities.Num() > 0)
-		{
-			for (EItemRarity ItemRarity : ItemRarities)
-			{
-				if (Item->GetItemRarity() == ItemRarity)
-				{
-					bRarityMatch = true;
-				}
-			}
-		}
-		else
+		if (Item->GetItemRarity() == NewItemRarity)
 		{
 			bRarityMatch = true;
 		}
 
-		if (ItemTypes.Num() > 0)
-		{
-			for (EItemType ItemType : ItemTypes)
-			{
-				if (Item->GetItemType() == ItemType)
-				{
-					bTypeMatch = true;
-				}
-			}
-		}
-		else
+		if (ItemTypes.Num() == 0 || (ItemTypes.Num() > 0 && ItemTypes.Contains(Item->GetItemType())))
 		{
 			bTypeMatch = true;
 		}
@@ -90,7 +75,7 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 		return (bRarityMatch && bTypeMatch);
 	});
 
-	return CombinedItemsArray;
+	return FinalItemsArray;
 }
 
 const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
