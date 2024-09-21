@@ -2,8 +2,9 @@
 
 #include "ItemRarityDataAsset.h"
 
-FColor UItemRarityDataAsset::GetRarityColor(EItemRarity ItemRarity)
+FColor UItemRarityDataAsset::GetRarityColor(EItemRarity ItemRarity) const
 {
+
 	for (FItemRarityEntry RarityEntry : RaritySettings)
 	{
 		if (RarityEntry.ItemRarity == ItemRarity)

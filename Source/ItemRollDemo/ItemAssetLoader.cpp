@@ -2,11 +2,15 @@
 
 
 #include "ItemAssetLoader.h"
+#include "ItemRarityDataAsset.h"
 #include "ItemsPrimaryDataAsset.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 
-void UItemAssetLoader::InitItemAssetLoader()
+void UItemAssetLoader::InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset)
 {
+	GameInstance = CurrentGameInstance;
+	RarityDataAsset = ItemRarityDataAsset;
+
 	TArray<FAssetData> AssetDataArray = LoadGameItemsAssetData();
 
 	InsertAssetsToMap(AssetDataArray);
@@ -26,22 +30,9 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	}
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity, EItemType* ItemType) const
+UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
 {
-	TArray<EItemRarity> RarityArray;
-	TArray<EItemType> TypeArray;
-
-	if (ItemRarity)
-	{
-		RarityArray.Add(*ItemRarity);
-	}
-
-	if (ItemType)
-	{
-		TypeArray.Add(*ItemType);
-	}
-
-	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(RarityArray, TypeArray);
+	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
 
 	if (ItemPool.Num() > 0)
 	{
@@ -53,18 +44,6 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(EItemRarity* ItemRarity,
 	{
 		return nullptr;
 	}
-}
-
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarity(TArray<EItemRarity>& ItemRarities) const
-{
-	TArray<EItemType> BlankTypes;
-	return GetItemsByRarityAndType(ItemRarities, BlankTypes);
-}
-
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByType(TArray<EItemType>& ItemTypes) const
-{
-	TArray<EItemRarity> BlankRarities;
-	return GetItemsByRarityAndType(BlankRarities, ItemTypes);
 }
 
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
@@ -117,6 +96,11 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
 {
 	return ItemsArray;
+}
+
+FColor UItemAssetLoader::GetItemRarityColor(EItemRarity ItemRarity)
+{
+	return RarityDataAsset->GetRarityColor(ItemRarity);;
 }
 
 // Get all item assets from asset registry

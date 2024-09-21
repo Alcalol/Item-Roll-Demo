@@ -18,16 +18,19 @@ AItemActor::AItemActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	RootSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root component"));
 	ItemStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Item Static Mesh"));
 
+	RootComponent = RootSceneComponent;
 	ItemStaticMeshComponent->SetupAttachment(RootComponent);
 }
 
-bool AItemActor::ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset)
+bool AItemActor::ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset, FColor ItemRarityColor)
 {
 	StopNiagaraEffect();
 
 	ItemData = ItemDataAsset;
+	RarityColor = ItemRarityColor;
 
 	StartNiagaraEffect();
 
@@ -43,6 +46,8 @@ const UItemsPrimaryDataAsset* AItemActor::GetItemData()
 void AItemActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	RarityColor = FColor();
 
 	if (ItemNiagaraSystem)
 	{
@@ -66,26 +71,11 @@ bool AItemActor::UpdateStaticMesh()
 	return false;
 }
 
-FColor AItemActor::GetItemRarityColor()
-{
-	UItemGameInstance* GameInstance = Cast<UItemGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
-
-	UItemRarityDataAsset* RarityDataAsset = GameInstance->RarityDataAsset;
-
-	if (RarityDataAsset)
-	{
-		return RarityDataAsset->GetRarityColor(ItemData->GetItemRarity());
-	}
-
-	return FColor();
-
-}
-
 void AItemActor::StartNiagaraEffect()
 {
 	if (ItemData)
 	{
-		ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), GetItemRarityColor());
+		ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), RarityColor);
 
 		ItemNiagaraComponent->Activate();
 	}

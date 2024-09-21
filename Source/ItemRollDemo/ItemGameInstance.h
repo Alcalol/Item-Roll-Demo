@@ -3,11 +3,11 @@
 #pragma once
 
 #include "Engine/GameInstance.h"
-#include "ItemAssetLoader.h"
 #include "ItemRarityDataAsset.h"
 #include "ItemGameInstance.generated.h"
 
 class UItemsPrimaryDataAsset;
+class UItemAssetLoader;
 
 /**
  * 
@@ -21,6 +21,12 @@ class ITEMROLLDEMO_API UItemGameInstance : public UGameInstance
 public:
 
 	virtual void Init() override;
+
+	const UItemAssetLoader* GetItemAssetLoader() const;
+
+	const UItemRarityDataAsset* GetRarityDataAsset() const;
+
+protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	UItemAssetLoader* ItemAssetLoader;
