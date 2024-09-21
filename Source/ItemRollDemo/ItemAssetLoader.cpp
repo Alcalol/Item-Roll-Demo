@@ -34,6 +34,7 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& Ite
 {
 	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
 
+	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
 	if (ItemPool.Num() > 0)
 	{
 		int ChosenIndex = FMath::RandRange(0, ItemPool.Num() - 1);

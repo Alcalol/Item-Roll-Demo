@@ -32,13 +32,14 @@ void AItemSpawnerPlatform::SpawnNewItem()
 		}
 
 		UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
-		EItemRarity NewRarity = NewItemDataAsset->GetItemRarity();
-
-		const UItemRarityDataAsset* NewRarityAsset = GameInstance->GetRarityDataAsset();
-		FColor NewItemRarityColor = NewRarityAsset->GetRarityColor(NewRarity);
 
 		if (NewItemDataAsset && ItemSpawnLocator)
 		{
+			EItemRarity NewRarity = NewItemDataAsset->GetItemRarity();
+
+			const UItemRarityDataAsset* NewRarityAsset = GameInstance->GetRarityDataAsset();
+			FColor NewItemRarityColor = NewRarityAsset->GetRarityColor(NewRarity);
+
 			CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ItemSpawnLocator->GetComponentTransform()));
 
 			if (CurrentItemActor)
