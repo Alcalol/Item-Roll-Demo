@@ -11,6 +11,8 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "ItemSpawnerButton.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "Kismet/GameplayStatics.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -90,6 +92,9 @@ void AItemRollDemoCharacter::SetupPlayerInputComponent(UInputComponent* PlayerIn
 
 		//Interacting
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AItemRollDemoCharacter::Interact);
+
+		//Interacting
+		EnhancedInputComponent->BindAction(QuitAction, ETriggerEvent::Started, this, &AItemRollDemoCharacter::Quit);
 	}
 	else
 	{
@@ -148,4 +153,11 @@ void AItemRollDemoCharacter::Interact(const FInputActionValue& Value)
 			Button->BroadcastSpawn();
 		}
 	}
+}
+
+void AItemRollDemoCharacter::Quit(const FInputActionValue& Value)
+{
+	UWorld* CurrentWorld = GetWorld();
+
+	UKismetSystemLibrary::QuitGame(CurrentWorld, UGameplayStatics::GetPlayerController(CurrentWorld, 0), EQuitPreference::Quit, false);
 }

@@ -48,6 +48,10 @@ class AItemRollDemoCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* InteractAction;
 
+	/** Quit Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* QuitAction;
+
 public:
 	AItemRollDemoCharacter();
 	
@@ -61,6 +65,8 @@ protected:
 	void Look(const FInputActionValue& Value);
 			
 	void Interact(const FInputActionValue& Value);
+
+	void Quit(const FInputActionValue& Value);
 
 protected:
 	// APawn interface
