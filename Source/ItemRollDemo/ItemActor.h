@@ -62,8 +62,6 @@ private:
 
 	bool UpdateStaticMesh();
 
-	void RandomizeStaticMeshLocation();
-
 	void PerformStaticMeshBob();
 
 	void AddLocationDeltaToStaticMesh(FVector& Delta);

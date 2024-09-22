@@ -50,6 +50,9 @@ public:
 	UStaticMesh* GetItemStaticMesh() const;
 
 	UFUNCTION(BlueprintCallable)
+	UMaterialInterface* GetItemMeshMaterial() const;
+
+	UFUNCTION(BlueprintCallable)
 	EItemRarity GetItemRarity() const;
 
 	UFUNCTION(BlueprintCallable)
@@ -79,6 +82,9 @@ private:
 	// The static mesh for the item
 	UPROPERTY(EditAnywhere)
 	UStaticMesh* ItemStaticMesh;
+
+	UPROPERTY(EditAnywhere)
+	UMaterialInterface* ItemMeshMaterial;
 
 	// The rarity of the item
 	UPROPERTY(EditAnywhere)

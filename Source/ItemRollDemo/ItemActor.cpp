@@ -71,23 +71,21 @@ void AItemActor::Tick(float DeltaTime)
 
 bool AItemActor::UpdateStaticMesh()
 {
-	if (ItemData && ItemData->GetItemStaticMesh() && ItemStaticMeshComponent)
+	if (ItemData && ItemStaticMeshComponent)
 	{
-		ItemStaticMeshComponent->SetStaticMesh(ItemData->GetItemStaticMesh());
+		if (UStaticMesh* MeshToUse = ItemData->GetItemStaticMesh())
+		{
+			ItemStaticMeshComponent->SetStaticMesh(MeshToUse);
+		}
+		if (UMaterialInterface* MaterialToUse = ItemData->GetItemMeshMaterial())
+		{
+			ItemStaticMeshComponent->SetMaterial(0, MaterialToUse);
+		}
 
 		return true;
 	}
 
 	return false;
-}
-
-void AItemActor::RandomizeStaticMeshLocation()
-{
-	float RandomDelta = FMath::FRandRange(MaxBobDelta * -1, MaxBobDelta);
-
-	FVector NewDelta = FVector(0.0f, 0.0f, RandomDelta);
-
-	AddLocationDeltaToStaticMesh(NewDelta);
 }
 
 void AItemActor::PerformStaticMeshBob()

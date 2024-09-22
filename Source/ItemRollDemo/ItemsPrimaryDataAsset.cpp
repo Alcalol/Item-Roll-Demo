@@ -35,6 +35,11 @@ UStaticMesh* UItemsPrimaryDataAsset::GetItemStaticMesh() const
 	return ItemStaticMesh;
 }
 
+UMaterialInterface* UItemsPrimaryDataAsset::GetItemMeshMaterial() const
+{
+	return ItemMeshMaterial;
+}
+
 EItemRarity UItemsPrimaryDataAsset::GetItemRarity() const
 {
 	return ItemRarity;
