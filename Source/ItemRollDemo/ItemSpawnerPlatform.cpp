@@ -45,6 +45,7 @@ void AItemSpawnerPlatform::SpawnNewItem()
 			if (CurrentItemActor)
 			{
 				CurrentItemActor->ChangeItem(NewItemDataAsset, NewItemRarityColor);
+				ItemSpawnedEvent(NewItemDataAsset);
 			}
 		}
 	}
