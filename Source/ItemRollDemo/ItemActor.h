@@ -26,7 +26,7 @@ public:
 	const UItemsPrimaryDataAsset* GetItemData();
 
 protected:
-	UPROPERTY()
+	UPROPERTY(EditDefaultsOnly)
 	UStaticMeshComponent* ItemStaticMeshComponent;
 
 	UPROPERTY()
@@ -38,7 +38,15 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	UItemsPrimaryDataAsset* ItemData;
 
+	UPROPERTY(EditDefaultsOnly)
+	float BobSpeed = 40.0f;
+
+	UPROPERTY(EditDefaultsOnly)
+	float MaxBobDelta = 5.0f;
+
 	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
 
 private:
 	UPROPERTY()
@@ -47,7 +55,18 @@ private:
 	UPROPERTY()
 	FColor RarityColor;
 
+	UPROPERTY()
+	FVector StartingLocation;
+
+	float TotalAliveTime;
+
 	bool UpdateStaticMesh();
+
+	void RandomizeStaticMeshLocation();
+
+	void PerformStaticMeshBob();
+
+	void AddLocationDeltaToStaticMesh(FVector& Delta);
 
 	void StartNiagaraEffect();
 

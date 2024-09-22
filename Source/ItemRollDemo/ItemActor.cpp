@@ -15,8 +15,7 @@
 // Sets default values
 AItemActor::AItemActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 
 	RootSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root component"));
 	ItemStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Item Static Mesh"));
@@ -49,9 +48,11 @@ void AItemActor::BeginPlay()
 
 	RarityColor = FColor();
 
+	StartingLocation = ItemStaticMeshComponent->GetRelativeLocation();
+
 	if (ItemNiagaraSystem)
 	{
-		ItemNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(ItemNiagaraSystem, ItemStaticMeshComponent, NAME_None, FVector(0.0f), FRotator(0.0f), EAttachLocation::SnapToTargetIncludingScale, true, false);
+		ItemNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(ItemNiagaraSystem, RootComponent, NAME_None, FVector(0.0f), FRotator(0.0f), EAttachLocation::SnapToTargetIncludingScale, true, false);
 	}
 
 	StartNiagaraEffect();
@@ -59,9 +60,18 @@ void AItemActor::BeginPlay()
 	UpdateStaticMesh();
 }
 
+void AItemActor::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	TotalAliveTime += DeltaTime;
+
+	PerformStaticMeshBob();
+}
+
 bool AItemActor::UpdateStaticMesh()
 {
-	if (ItemData && ItemStaticMeshComponent)
+	if (ItemData && ItemData->GetItemStaticMesh() && ItemStaticMeshComponent)
 	{
 		ItemStaticMeshComponent->SetStaticMesh(ItemData->GetItemStaticMesh());
 
@@ -69,6 +79,35 @@ bool AItemActor::UpdateStaticMesh()
 	}
 
 	return false;
+}
+
+void AItemActor::RandomizeStaticMeshLocation()
+{
+	float RandomDelta = FMath::FRandRange(MaxBobDelta * -1, MaxBobDelta);
+
+	FVector NewDelta = FVector(0.0f, 0.0f, RandomDelta);
+
+	AddLocationDeltaToStaticMesh(NewDelta);
+}
+
+void AItemActor::PerformStaticMeshBob()
+{
+	float BobDelta = TotalAliveTime * BobSpeed;
+
+	BobDelta = FMath::Sin(TotalAliveTime) * MaxBobDelta;
+
+	FVector NewDelta = FVector(0.0f, 0.0f, BobDelta);
+
+	AddLocationDeltaToStaticMesh(NewDelta);
+}
+
+void AItemActor::AddLocationDeltaToStaticMesh(FVector& Delta)
+{
+	FVector FinalLocation = StartingLocation;
+
+	FinalLocation += Delta;
+
+	ItemStaticMeshComponent->SetRelativeLocation(FinalLocation);
 }
 
 void AItemActor::StartNiagaraEffect()
