@@ -15,12 +15,12 @@ EItemType UItemsPrimaryDataAsset::GetItemType() const
 	return ItemType;
 }
 
-FName UItemsPrimaryDataAsset::GetItemName() const
+const FName& UItemsPrimaryDataAsset::GetItemName() const
 {
 	return ItemName;
 }
 
-FString UItemsPrimaryDataAsset::GetItemDescription() const
+const FString& UItemsPrimaryDataAsset::GetItemDescription() const
 {
 	return ItemDescription;
 }
@@ -45,7 +45,7 @@ EItemRarity UItemsPrimaryDataAsset::GetItemRarity() const
 	return ItemRarity;
 }
 
-TArray<FItemRangeEntry> UItemsPrimaryDataAsset::GetItemAllowedEffects() const
+const TArray<FItemRangeEntry>& UItemsPrimaryDataAsset::GetItemAllowedEffects() const
 {
 	return AllowedItemEffects;
 }

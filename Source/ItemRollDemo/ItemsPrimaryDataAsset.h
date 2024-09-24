@@ -38,10 +38,10 @@ public:
 	EItemType GetItemType() const;
 
 	UFUNCTION(BlueprintCallable)
-	FName GetItemName() const;
+	const FName& GetItemName() const;
 
 	UFUNCTION(BlueprintCallable)
-	FString GetItemDescription() const;
+	const FString& GetItemDescription() const;
 
 	UFUNCTION(BlueprintCallable)
 	UTexture2D* GetItemImage() const;
@@ -56,7 +56,7 @@ public:
 	EItemRarity GetItemRarity() const;
 
 	UFUNCTION(BlueprintCallable)
-	TArray<FItemRangeEntry> GetItemAllowedEffects() const;
+	const TArray<FItemRangeEntry>& GetItemAllowedEffects() const;
 
 	UFUNCTION(BlueprintCallable)
 	int GetItemAllowedEffectsCount() const;
