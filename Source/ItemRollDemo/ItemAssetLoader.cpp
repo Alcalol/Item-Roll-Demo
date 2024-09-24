@@ -35,7 +35,9 @@ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 
  const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
 {
-	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
+	 TArray<UItemsPrimaryDataAsset*> ItemPool;
+	 
+	 GetItemsByRarityAndType(ItemPool, ItemRarityArray, ItemTypeArray);
 
 	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
 	if (ItemPool.Num() > 0)
@@ -51,16 +53,16 @@ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 }
 
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
+void UItemAssetLoader::GetItemsByRarityAndType(TArray<UItemsPrimaryDataAsset*>& OutItemDataAsset, TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
 {
 	// First generate a weighted random rarity from the given TArray
 	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
 	// Filter out unwanted item types
-	TArray<UItemsPrimaryDataAsset*> FinalItemsArray = ItemsArray;
+	OutItemDataAsset = ItemsArray;
 
 	// If ItemType array is populated, also filter by type
-	FinalItemsArray = FinalItemsArray.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
+	OutItemDataAsset = OutItemDataAsset.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
 		bool bRarityMatch = false;
 		bool bTypeMatch = false;
 
@@ -76,13 +78,11 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 
 		return (bRarityMatch && bTypeMatch);
 	});
-
-	return FinalItemsArray;
 }
 
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
+void UItemAssetLoader::GetAllItems(TArray<UItemsPrimaryDataAsset*>& OutAllItemsList) const
 {
-	return ItemsArray;
+	OutAllItemsList = ItemsArray;
 }
 
 // Get all item assets from asset registry

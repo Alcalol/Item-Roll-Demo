@@ -34,9 +34,9 @@ private:
 	UPROPERTY()
 	const UItemRarityDataAsset* RarityDataAsset;
 
-	const TArray<UItemsPrimaryDataAsset*> GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
+	void GetItemsByRarityAndType(TArray<UItemsPrimaryDataAsset*>& OutItemDataAsset, TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
 
-	const TArray<UItemsPrimaryDataAsset*> GetAllItems() const;
+	void GetAllItems(TArray<UItemsPrimaryDataAsset*>& OutAllItemsList) const;
 
 	void LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray);
 
