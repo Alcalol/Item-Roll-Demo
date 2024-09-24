@@ -15,7 +15,7 @@ void UItemAssetLoader::InitItemAssetLoader(const UItemRarityDataAsset& ItemRarit
 	InsertAssetsToMap(AssetDataArray);
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
+const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 {
 	if (ItemsArray.Num() > 0)
 	{
@@ -31,7 +31,7 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	}
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
+const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
 {
 	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
 
