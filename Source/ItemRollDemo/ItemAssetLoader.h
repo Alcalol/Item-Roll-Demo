@@ -38,8 +38,6 @@ private:
 
 	const TArray<UItemsPrimaryDataAsset*> GetAllItems() const;
 
-	FColor GetItemRarityColor(EItemRarity ItemRarity);
-
 	void LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray);
 
 	void InsertAssetsToMap(TArray<FAssetData>& AssetDataArray);

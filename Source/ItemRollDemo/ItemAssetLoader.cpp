@@ -85,11 +85,6 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
 	return ItemsArray;
 }
 
-FColor UItemAssetLoader::GetItemRarityColor(EItemRarity ItemRarity)
-{
-	return RarityDataAsset->GetRarityColor(ItemRarity);;
-}
-
 // Get all item assets from asset registry
 void UItemAssetLoader::LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray)
 {
