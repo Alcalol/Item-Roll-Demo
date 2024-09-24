@@ -26,11 +26,11 @@ AItemActor::AItemActor()
 	NiagaraLocatorComponent->SetupAttachment(RootComponent);
 }
 
-bool AItemActor::ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset, FColor ItemRarityColor)
+bool AItemActor::ChangeItem(const UItemsPrimaryDataAsset& ItemDataAsset, const FColor& ItemRarityColor)
 {
 	StopNiagaraEffect();
 
-	ItemData = ItemDataAsset;
+	ItemData = &ItemDataAsset;
 	RarityColor = ItemRarityColor;
 
 	StartNiagaraEffect();

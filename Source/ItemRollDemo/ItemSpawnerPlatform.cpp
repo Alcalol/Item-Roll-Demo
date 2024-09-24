@@ -31,7 +31,7 @@ void AItemSpawnerPlatform::SpawnNewItem()
 			CurrentItemActor = nullptr;
 		}
 
-		UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
+		const UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
 
 		if (NewItemDataAsset && ItemSpawnLocator)
 		{
@@ -44,7 +44,7 @@ void AItemSpawnerPlatform::SpawnNewItem()
 
 			if (CurrentItemActor)
 			{
-				CurrentItemActor->ChangeItem(NewItemDataAsset, NewItemRarityColor);
+				CurrentItemActor->ChangeItem(*NewItemDataAsset, NewItemRarityColor);
 				ItemSpawnedEvent(NewItemDataAsset);
 			}
 		}

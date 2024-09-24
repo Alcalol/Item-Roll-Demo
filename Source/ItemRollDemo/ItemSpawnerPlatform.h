@@ -22,7 +22,7 @@ public:
 
 	// For blueprint to update any UI that monitors the new item
 	UFUNCTION(BlueprintImplementableEvent)
-	void ItemSpawnedEvent(UItemsPrimaryDataAsset* ItemDataAsset);
+	void ItemSpawnedEvent(const UItemsPrimaryDataAsset* ItemDataAsset);
 
 protected:
 	virtual void BeginPlay() override;

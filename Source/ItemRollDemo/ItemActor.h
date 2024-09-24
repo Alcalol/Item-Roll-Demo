@@ -26,7 +26,7 @@ public:
 
 	AItemActor();
 
-	bool ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset, FColor ItemRarityColor);
+	bool ChangeItem(const UItemsPrimaryDataAsset& ItemDataAsset, const FColor& ItemRarityColor);
 	
 	const UItemsPrimaryDataAsset* GetItemData();
 
@@ -43,7 +43,7 @@ protected:
 
 	// The item data asset specifying what item this is supposed to be.  Can be set at runtime via ChangeItem().
 	UPROPERTY(EditDefaultsOnly)
-	UItemsPrimaryDataAsset* ItemData;
+	const UItemsPrimaryDataAsset* ItemData;
 
 	// The speed at which the object will bob up and down after spawning.
 	UPROPERTY(EditDefaultsOnly)
