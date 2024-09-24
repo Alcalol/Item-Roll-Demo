@@ -55,9 +55,7 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
 	// Filter out unwanted item types
-	TArray<UItemsPrimaryDataAsset*> FinalItemsArray;
-
-	FinalItemsArray = ItemsArray;
+	TArray<UItemsPrimaryDataAsset*> FinalItemsArray = ItemsArray;
 
 	// If ItemType array is populated, also filter by type
 	FinalItemsArray = FinalItemsArray.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
