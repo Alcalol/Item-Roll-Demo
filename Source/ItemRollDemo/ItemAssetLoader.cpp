@@ -55,13 +55,17 @@ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
 void UItemAssetLoader::GetItemsByRarityAndType(TArray<UItemsPrimaryDataAsset*>& OutItemDataAsset, TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
 {
+	if (!RarityDataAsset)
+	{
+		return;
+	}
+
 	// First generate a weighted random rarity from the given TArray
 	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
-	// Filter out unwanted item types
 	OutItemDataAsset = ItemsArray;
 
-	// If ItemType array is populated, also filter by type
+	// Filter for chosen rarity and provided item types
 	OutItemDataAsset = OutItemDataAsset.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
 		bool bRarityMatch = false;
 		bool bTypeMatch = false;
