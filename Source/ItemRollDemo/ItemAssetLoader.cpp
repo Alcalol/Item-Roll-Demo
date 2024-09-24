@@ -19,9 +19,11 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 {
 	if (ItemsArray.Num() > 0)
 	{
-		int ChosenIndex = FMath::RandRange(0, ItemsArray.Num() - 1);
+		TArray<EItemRarity> EmptyRarityList;
+		TArray<EItemType> EmptyTypeList;
 
-		return ItemsArray[ChosenIndex];
+		// Use the full GetRandomItem function to respect rarity spawn rates.
+		return GetRandomItem(EmptyRarityList, EmptyTypeList);
 	}
 	else
 	{
