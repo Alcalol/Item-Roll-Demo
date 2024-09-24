@@ -30,6 +30,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	USceneComponent* ItemSpawnLocator;
 
+	// The default actor to use when spawning a new item.
 	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
 	TSubclassOf<AItemActor> DefaultItemActor;
 
