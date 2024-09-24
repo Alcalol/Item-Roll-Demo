@@ -19,9 +19,11 @@ AItemActor::AItemActor()
 
 	RootSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root component"));
 	ItemStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Item Static Mesh"));
+	NiagaraLocatorComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Niagara System Locator"));
 
 	RootComponent = RootSceneComponent;
 	ItemStaticMeshComponent->SetupAttachment(RootComponent);
+	NiagaraLocatorComponent->SetupAttachment(RootComponent);
 }
 
 bool AItemActor::ChangeItem(UItemsPrimaryDataAsset* ItemDataAsset, FColor ItemRarityColor)
@@ -41,7 +43,6 @@ const UItemsPrimaryDataAsset* AItemActor::GetItemData()
 	return ItemData;
 }
 
-// Called when the game starts or when spawned
 void AItemActor::BeginPlay()
 {
 	Super::BeginPlay();
@@ -52,7 +53,7 @@ void AItemActor::BeginPlay()
 
 	if (ItemNiagaraSystem)
 	{
-		ItemNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(ItemNiagaraSystem, RootComponent, NAME_None, FVector(0.0f), FRotator(0.0f), EAttachLocation::SnapToTargetIncludingScale, true, false);
+		ItemNiagaraComponent = UNiagaraFunctionLibrary::SpawnSystemAttached(ItemNiagaraSystem, RootComponent, NAME_None, NiagaraLocatorComponent->GetRelativeLocation(), NiagaraLocatorComponent->GetRelativeRotation(), EAttachLocation::SnapToTargetIncludingScale, true, false);
 	}
 
 	StartNiagaraEffect();
