@@ -10,7 +10,9 @@ void UItemAssetLoader::InitItemAssetLoader(const UItemRarityDataAsset& ItemRarit
 {
 	RarityDataAsset = &ItemRarityDataAsset;
 
-	TArray<FAssetData> AssetDataArray = LoadGameItemsAssetData();
+	TArray<FAssetData> AssetDataArray;
+	
+	LoadGameItemsAssetData(AssetDataArray);
 
 	InsertAssetsToMap(AssetDataArray);
 }
@@ -89,18 +91,16 @@ FColor UItemAssetLoader::GetItemRarityColor(EItemRarity ItemRarity)
 }
 
 // Get all item assets from asset registry
-TArray<FAssetData> UItemAssetLoader::LoadGameItemsAssetData()
+void UItemAssetLoader::LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray)
 {
 	FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>("AssetRegistry");
 
-	TArray<FAssetData> AssetDataArray;
+	OutAssetArray.Empty();
 	FARFilter Filter;
 
 	Filter.ClassPaths.Add(UItemsPrimaryDataAsset::StaticClass()->GetClassPathName());
 
-	AssetRegistryModule.Get().GetAssets(Filter, AssetDataArray);
-
-	return AssetDataArray;
+	AssetRegistryModule.Get().GetAssets(Filter, OutAssetArray);
 }
 
 void UItemAssetLoader::InsertAssetsToMap(TArray<FAssetData>& AssetDataArray)

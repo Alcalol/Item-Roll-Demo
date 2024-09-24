@@ -40,7 +40,7 @@ private:
 
 	FColor GetItemRarityColor(EItemRarity ItemRarity);
 
-	TArray<FAssetData> LoadGameItemsAssetData();
+	void LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray);
 
 	void InsertAssetsToMap(TArray<FAssetData>& AssetDataArray);
 };
