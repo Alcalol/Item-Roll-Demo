@@ -1,4 +1,4 @@
-# Unreal Engine 5 demo of a weighted RNG item generator using data assets.
+# Unreal Engine 5 c++ demo of a weighted RNG item generator using data assets.
 
 ## Video of the item generator in action:
 ### [YouTube video](https://www.youtube.com/watch?v=DjaYxrAhh-s)
@@ -10,6 +10,8 @@
 - Item rarity configurations (Rarity colour and spawn chance) is also a data asset.
 - Upon an item spawning, the Niagara effect circling the item is set to represent the rarity by colour.
 - Widget displays on the wall also shows the info of the current item that is on each spawn platform.
+
+Note: The platform the items spawn on is just a visual inside the actor class, so the item can be spawned anywhere on, in, or around any objects such as a table, a chest, or just on the ground with no object at all.
 
 ## Reasons for various decisions:
 - Item status effects and the range at which they can roll at per item is implemented, however the code to actually generate the status effects was not, in order to limit the scope of the project.
