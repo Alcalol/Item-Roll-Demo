@@ -20,11 +20,11 @@ class ITEMROLLDEMO_API UItemAssetLoader : public UObject
 	
 public:
 
-	void InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset);
+	void InitItemAssetLoader(const UItemRarityDataAsset& ItemRarityDataAsset);
 
-	UItemsPrimaryDataAsset* GetRandomItem() const;
+	const UItemsPrimaryDataAsset* GetRandomItem() const;
 
-	UItemsPrimaryDataAsset* GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const;
+	const UItemsPrimaryDataAsset* GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const;
 
 private:
 
@@ -32,18 +32,13 @@ private:
 	TArray<UItemsPrimaryDataAsset*> ItemsArray;
 
 	UPROPERTY()
-	UItemGameInstance* GameInstance;
+	const UItemRarityDataAsset* RarityDataAsset;
 
-	UPROPERTY()
-	UItemRarityDataAsset* RarityDataAsset;
+	void GetItemsByRarityAndType(TArray<UItemsPrimaryDataAsset*>& OutItemDataAsset, TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
 
-	const TArray<UItemsPrimaryDataAsset*> GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
+	void GetAllItems(TArray<UItemsPrimaryDataAsset*>& OutAllItemsList) const;
 
-	const TArray<UItemsPrimaryDataAsset*> GetAllItems() const;
-
-	FColor GetItemRarityColor(EItemRarity ItemRarity);
-
-	TArray<FAssetData> LoadGameItemsAssetData();
+	void LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray);
 
 	void InsertAssetsToMap(TArray<FAssetData>& AssetDataArray);
 };

@@ -9,7 +9,10 @@ void UItemGameInstance::Init()
 {
 	ItemAssetLoader = NewObject<UItemAssetLoader>();
 
-	ItemAssetLoader->InitItemAssetLoader(this, RarityDataAsset);
+	if (RarityDataAsset)
+	{
+		ItemAssetLoader->InitItemAssetLoader(*RarityDataAsset);
+	}
 }
 
 const UItemAssetLoader* UItemGameInstance::GetItemAssetLoader() const

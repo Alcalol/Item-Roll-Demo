@@ -30,9 +30,9 @@ class ITEMROLLDEMO_API UItemRarityDataAsset : public UDataAsset
 	GENERATED_BODY()
 
 public:
-	FColor GetRarityColor(EItemRarity ItemRarity) const;
+	const FColor GetRarityColor(EItemRarity ItemRarity) const;
 
-	EItemRarity GetRandomRarityByWeight(TArray<EItemRarity>& RarityArray) const;
+	const EItemRarity GetRandomRarityByWeight(TArray<EItemRarity>& RarityArray) const;
 
 protected:
 	UPROPERTY(EditAnywhere)

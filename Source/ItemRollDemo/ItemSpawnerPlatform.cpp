@@ -11,7 +11,6 @@
 // Sets default values
 AItemSpawnerPlatform::AItemSpawnerPlatform()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Root Component"));
@@ -31,7 +30,7 @@ void AItemSpawnerPlatform::SpawnNewItem()
 			CurrentItemActor = nullptr;
 		}
 
-		UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
+		const UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
 
 		if (NewItemDataAsset && ItemSpawnLocator)
 		{
@@ -44,7 +43,7 @@ void AItemSpawnerPlatform::SpawnNewItem()
 
 			if (CurrentItemActor)
 			{
-				CurrentItemActor->ChangeItem(NewItemDataAsset, NewItemRarityColor);
+				CurrentItemActor->ChangeItem(*NewItemDataAsset, NewItemRarityColor);
 				ItemSpawnedEvent(NewItemDataAsset);
 			}
 		}

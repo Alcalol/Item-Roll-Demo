@@ -2,7 +2,7 @@
 
 #include "ItemRarityDataAsset.h"
 
-FColor UItemRarityDataAsset::GetRarityColor(EItemRarity ItemRarity) const
+const FColor UItemRarityDataAsset::GetRarityColor(EItemRarity ItemRarity) const
 {
 
 	for (FItemRarityEntry RarityEntry : RaritySettings)
@@ -16,7 +16,7 @@ FColor UItemRarityDataAsset::GetRarityColor(EItemRarity ItemRarity) const
 	return FColor();
 }
 
-EItemRarity UItemRarityDataAsset::GetRandomRarityByWeight(TArray<EItemRarity>& RarityArray) const
+const EItemRarity UItemRarityDataAsset::GetRandomRarityByWeight(TArray<EItemRarity>& RarityArray) const
 {
 	int CombinedWeight = 0;
 	TArray<FItemRarityEntry> SelectedRarities;

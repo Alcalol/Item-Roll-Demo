@@ -6,23 +6,26 @@
 #include "ItemsPrimaryDataAsset.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 
-void UItemAssetLoader::InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset)
+void UItemAssetLoader::InitItemAssetLoader(const UItemRarityDataAsset& ItemRarityDataAsset)
 {
-	GameInstance = CurrentGameInstance;
-	RarityDataAsset = ItemRarityDataAsset;
+	RarityDataAsset = &ItemRarityDataAsset;
 
-	TArray<FAssetData> AssetDataArray = LoadGameItemsAssetData();
+	TArray<FAssetData> AssetDataArray;
+	
+	LoadGameItemsAssetData(AssetDataArray);
 
 	InsertAssetsToMap(AssetDataArray);
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
+const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 {
 	if (ItemsArray.Num() > 0)
 	{
-		int ChosenIndex = FMath::RandRange(0, ItemsArray.Num() - 1);
+		TArray<EItemRarity> EmptyRarityList;
+		TArray<EItemType> EmptyTypeList;
 
-		return ItemsArray[ChosenIndex];
+		// Use the full GetRandomItem function to respect rarity spawn rates.
+		return GetRandomItem(EmptyRarityList, EmptyTypeList);
 	}
 	else
 	{
@@ -30,9 +33,11 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	}
 }
 
-UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
+ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
 {
-	TArray<UItemsPrimaryDataAsset*> ItemPool = GetItemsByRarityAndType(ItemRarityArray, ItemTypeArray);
+	 TArray<UItemsPrimaryDataAsset*> ItemPool;
+	 
+	 GetItemsByRarityAndType(ItemPool, ItemRarityArray, ItemTypeArray);
 
 	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
 	if (ItemPool.Num() > 0)
@@ -48,18 +53,20 @@ UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& Ite
 }
 
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
+void UItemAssetLoader::GetItemsByRarityAndType(TArray<UItemsPrimaryDataAsset*>& OutItemDataAsset, TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const
 {
+	if (!RarityDataAsset)
+	{
+		return;
+	}
+
 	// First generate a weighted random rarity from the given TArray
 	EItemRarity NewItemRarity = RarityDataAsset->GetRandomRarityByWeight(ItemRarities);
 
-	// Filter out unwanted item types
-	TArray<UItemsPrimaryDataAsset*> FinalItemsArray;
+	OutItemDataAsset = ItemsArray;
 
-	FinalItemsArray = ItemsArray;
-
-	// If ItemType array is populated, also filter by type
-	FinalItemsArray = FinalItemsArray.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
+	// Filter for chosen rarity and provided item types
+	OutItemDataAsset = OutItemDataAsset.FilterByPredicate([&NewItemRarity, &ItemTypes](const UItemsPrimaryDataAsset* Item) {
 		bool bRarityMatch = false;
 		bool bTypeMatch = false;
 
@@ -75,33 +82,24 @@ const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetItemsByRarityAndType(
 
 		return (bRarityMatch && bTypeMatch);
 	});
-
-	return FinalItemsArray;
 }
 
-const TArray<UItemsPrimaryDataAsset*> UItemAssetLoader::GetAllItems() const
+void UItemAssetLoader::GetAllItems(TArray<UItemsPrimaryDataAsset*>& OutAllItemsList) const
 {
-	return ItemsArray;
-}
-
-FColor UItemAssetLoader::GetItemRarityColor(EItemRarity ItemRarity)
-{
-	return RarityDataAsset->GetRarityColor(ItemRarity);;
+	OutAllItemsList = ItemsArray;
 }
 
 // Get all item assets from asset registry
-TArray<FAssetData> UItemAssetLoader::LoadGameItemsAssetData()
+void UItemAssetLoader::LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray)
 {
 	FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>("AssetRegistry");
 
-	TArray<FAssetData> AssetDataArray;
+	OutAssetArray.Empty();
 	FARFilter Filter;
 
 	Filter.ClassPaths.Add(UItemsPrimaryDataAsset::StaticClass()->GetClassPathName());
 
-	AssetRegistryModule.Get().GetAssets(Filter, AssetDataArray);
-
-	return AssetDataArray;
+	AssetRegistryModule.Get().GetAssets(Filter, OutAssetArray);
 }
 
 void UItemAssetLoader::InsertAssetsToMap(TArray<FAssetData>& AssetDataArray)
@@ -112,10 +110,13 @@ void UItemAssetLoader::InsertAssetsToMap(TArray<FAssetData>& AssetDataArray)
 
 		UItemsPrimaryDataAsset* ItemDataAsset = Cast<UItemsPrimaryDataAsset>(ObjectToStore);
 
-		EItemRarity ItemRarity = ItemDataAsset->GetItemRarity();
-		EItemType ItemType = ItemDataAsset->GetItemType();
+		if (ItemDataAsset)
+		{
+			EItemRarity ItemRarity = ItemDataAsset->GetItemRarity();
+			EItemType ItemType = ItemDataAsset->GetItemType();
 
-		ItemsArray.Add(ItemDataAsset);
+			ItemsArray.Add(ItemDataAsset);
+		}
 	}
 }
 

@@ -22,7 +22,7 @@ public:
 
 	// For blueprint to update any UI that monitors the new item
 	UFUNCTION(BlueprintImplementableEvent)
-	void ItemSpawnedEvent(UItemsPrimaryDataAsset* ItemDataAsset);
+	void ItemSpawnedEvent(const UItemsPrimaryDataAsset* ItemDataAsset);
 
 protected:
 	virtual void BeginPlay() override;
@@ -30,6 +30,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly)
 	USceneComponent* ItemSpawnLocator;
 
+	// The default actor to use when spawning a new item.
 	UPROPERTY(EditDefaultsOnly, Category = "Item Spawner Settings")
 	TSubclassOf<AItemActor> DefaultItemActor;
 
