@@ -106,10 +106,13 @@ void UItemAssetLoader::InsertAssetsToMap(TArray<FAssetData>& AssetDataArray)
 
 		UItemsPrimaryDataAsset* ItemDataAsset = Cast<UItemsPrimaryDataAsset>(ObjectToStore);
 
-		EItemRarity ItemRarity = ItemDataAsset->GetItemRarity();
-		EItemType ItemType = ItemDataAsset->GetItemType();
+		if (ItemDataAsset)
+		{
+			EItemRarity ItemRarity = ItemDataAsset->GetItemRarity();
+			EItemType ItemType = ItemDataAsset->GetItemType();
 
-		ItemsArray.Add(ItemDataAsset);
+			ItemsArray.Add(ItemDataAsset);
+		}
 	}
 }
 
