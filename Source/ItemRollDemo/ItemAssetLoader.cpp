@@ -6,10 +6,9 @@
 #include "ItemsPrimaryDataAsset.h"
 #include "AssetRegistry/AssetRegistryModule.h"
 
-void UItemAssetLoader::InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset)
+void UItemAssetLoader::InitItemAssetLoader(const UItemRarityDataAsset& ItemRarityDataAsset)
 {
-	GameInstance = CurrentGameInstance;
-	RarityDataAsset = ItemRarityDataAsset;
+	RarityDataAsset = &ItemRarityDataAsset;
 
 	TArray<FAssetData> AssetDataArray = LoadGameItemsAssetData();
 

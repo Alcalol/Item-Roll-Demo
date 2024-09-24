@@ -20,7 +20,7 @@ class ITEMROLLDEMO_API UItemAssetLoader : public UObject
 	
 public:
 
-	void InitItemAssetLoader(UItemGameInstance* CurrentGameInstance, UItemRarityDataAsset* ItemRarityDataAsset);
+	void InitItemAssetLoader(const UItemRarityDataAsset& ItemRarityDataAsset);
 
 	UItemsPrimaryDataAsset* GetRandomItem() const;
 
@@ -32,10 +32,7 @@ private:
 	TArray<UItemsPrimaryDataAsset*> ItemsArray;
 
 	UPROPERTY()
-	UItemGameInstance* GameInstance;
-
-	UPROPERTY()
-	UItemRarityDataAsset* RarityDataAsset;
+	const UItemRarityDataAsset* RarityDataAsset;
 
 	const TArray<UItemsPrimaryDataAsset*> GetItemsByRarityAndType(TArray<EItemRarity>& ItemRarities, TArray<EItemType>& ItemTypes) const;
 
