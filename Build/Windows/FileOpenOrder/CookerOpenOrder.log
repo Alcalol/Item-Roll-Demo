@@ -806,193 +806,193 @@
 "../../../Engine/Content/BasicShapes/Plane.ubulk" 805
 "../../../Engine/Content/BasicShapes/Plane.uasset" 806
 "../../../Engine/Content/BasicShapes/Plane.uexp" 807
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 808
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uexp" 809
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 810
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uexp" 811
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 812
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uexp" 813
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 814
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uexp" 815
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 816
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uexp" 817
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 818
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uexp" 819
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.ubulk" 820
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 821
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uexp" 822
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 823
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uexp" 824
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.ubulk" 825
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 826
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uexp" 827
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 828
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uexp" 829
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 830
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uexp" 831
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 832
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uexp" 833
-"../../../Engine/Content/EngineResources/FilmGrains/Marcie_Grain_v3_128_M2_000.uasset" 834
-"../../../Engine/Content/EngineResources/FilmGrains/Marcie_Grain_v3_128_M2_000.uexp" 835
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 836
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uexp" 837
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 838
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uexp" 839
-"../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uasset" 840
-"../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uexp" 841
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ubulk" 842
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" 843
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uexp" 844
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.ubulk" 845
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset" 846
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.uexp" 847
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 848
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uexp" 849
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset" 850
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uexp" 851
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset" 852
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MF_ProcGrid.uexp" 853
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset" 854
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_PrototypeGrid.uexp" 855
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset" 856
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uexp" 857
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.ubulk" 858
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset" 859
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.uexp" 860
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset" 861
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uexp" 862
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateV2.uasset" 863
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateV2.uexp" 864
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_TransformUVs.uasset" 865
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_TransformUVs.uexp" 866
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_srgb.uasset" 867
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_srgb.uexp" 868
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_BaseColor.uasset" 869
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_BaseColor.uexp" 870
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Unlit_Body.uasset" 871
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Unlit_Body.uexp" 872
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Unlit.uasset" 873
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Unlit.uexp" 874
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque_DS.uasset" 875
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque_DS.uexp" 876
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque.uasset" 877
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque.uexp" 878
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask_DS.uasset" 879
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask_DS.uexp" 880
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask.uasset" 881
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask.uexp" 882
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend_DS.uasset" 883
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend_DS.uexp" 884
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend.uasset" 885
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend.uexp" 886
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Iridescence.uasset" 887
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Iridescence.uexp" 888
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_Linear.uasset" 889
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_Linear.uexp" 890
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_MetallicRoughness.uasset" 891
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_MetallicRoughness.uexp" 892
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Transmission.uasset" 893
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Transmission.uexp" 894
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Occlusion.uasset" 895
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Occlusion.uexp" 896
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Specular.uasset" 897
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Specular.uexp" 898
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_IOR.uasset" 899
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_IOR.uexp" 900
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateNormals_TS.uasset" 901
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateNormals_TS.uexp" 902
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_Generic_N.uasset" 903
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_Generic_N.uexp" 904
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Normals.uasset" 905
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Normals.uexp" 906
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Transmission_Body.uasset" 907
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Transmission_Body.uexp" 908
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Transmission.uasset" 909
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Transmission.uexp" 910
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission_DS.uasset" 911
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission_DS.uexp" 912
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission.uasset" 913
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission.uexp" 914
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_DiffuseSpecGloss.uasset" 915
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_DiffuseSpecGloss.uexp" 916
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset" 917
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uexp" 918
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_PerceivedBrightness.uasset" 919
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_PerceivedBrightness.uexp" 920
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Emissive.uasset" 921
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Emissive.uexp" 922
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness.uasset" 923
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness.uexp" 924
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_SpecularGlossiness_Body.uasset" 925
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_SpecularGlossiness_Body.uexp" 926
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_SpecularGlossiness.uasset" 927
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_SpecularGlossiness.uexp" 928
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.uasset" 929
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.uexp" 930
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque.uasset" 931
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque.uexp" 932
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.uasset" 933
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.uexp" 934
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.uasset" 935
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.uexp" 936
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.uasset" 937
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.uexp" 938
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.uasset" 939
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.uexp" 940
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Sheen.uasset" 941
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Sheen.uexp" 942
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Sheen_Body.uasset" 943
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Sheen_Body.uexp" 944
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Sheen.uasset" 945
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Sheen.uexp" 946
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque_DS.uasset" 947
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque_DS.uexp" 948
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque.uasset" 949
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque.uexp" 950
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask_DS.uasset" 951
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask_DS.uexp" 952
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask.uasset" 953
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask.uexp" 954
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend_DS.uasset" 955
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend_DS.uexp" 956
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend.uasset" 957
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend.uexp" 958
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Default_Body.uasset" 959
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Default_Body.uexp" 960
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Default.uasset" 961
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Default.uexp" 962
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque_DS.uasset" 963
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque_DS.uexp" 964
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque.uasset" 965
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque.uexp" 966
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask_DS.uasset" 967
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask_DS.uexp" 968
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask.uasset" 969
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask.uexp" 970
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend_DS.uasset" 971
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend_DS.uexp" 972
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend.uasset" 973
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend.uexp" 974
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uasset" 975
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uexp" 976
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Clearcoat.uasset" 977
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Clearcoat.uexp" 978
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_ClearCoat_Body.uasset" 979
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_ClearCoat_Body.uexp" 980
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_ClearCoat.uasset" 981
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_ClearCoat.uexp" 982
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.uasset" 983
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.uexp" 984
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque.uasset" 985
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque.uexp" 986
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.uasset" 987
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.uexp" 988
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask.uasset" 989
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask.uexp" 990
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.uasset" 991
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.uexp" 992
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend.uasset" 993
-"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend.uexp" 994
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.ubulk" 808
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uasset" 809
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap_BuiltData.uexp" 810
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.ubulk" 811
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset" 812
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Textures/T_GridChecker_A.uexp" 813
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 814
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uexp" 815
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset" 816
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uexp" 817
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset" 818
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MF_ProcGrid.uexp" 819
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset" 820
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_PrototypeGrid.uexp" 821
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset" 822
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uexp" 823
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.ubulk" 824
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset" 825
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cylinder.uexp" 826
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset" 827
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uexp" 828
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateV2.uasset" 829
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateV2.uexp" 830
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_TransformUVs.uasset" 831
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_TransformUVs.uexp" 832
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_srgb.uasset" 833
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_srgb.uexp" 834
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_BaseColor.uasset" 835
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_BaseColor.uexp" 836
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Unlit_Body.uasset" 837
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Unlit_Body.uexp" 838
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Unlit.uasset" 839
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Unlit.uexp" 840
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque_DS.uasset" 841
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque_DS.uexp" 842
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque.uasset" 843
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Opaque.uexp" 844
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask_DS.uasset" 845
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask_DS.uexp" 846
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask.uasset" 847
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Mask.uexp" 848
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend_DS.uasset" 849
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend_DS.uexp" 850
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend.uasset" 851
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Unlit_Blend.uexp" 852
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Iridescence.uasset" 853
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Iridescence.uexp" 854
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_Linear.uasset" 855
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_White_Linear.uexp" 856
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_MetallicRoughness.uasset" 857
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_MetallicRoughness.uexp" 858
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Transmission.uasset" 859
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Transmission.uexp" 860
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Occlusion.uasset" 861
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Occlusion.uexp" 862
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Specular.uasset" 863
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Specular.uexp" 864
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_IOR.uasset" 865
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_IOR.uexp" 866
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateNormals_TS.uasset" 867
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_RotateNormals_TS.uexp" 868
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_Generic_N.uasset" 869
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/Textures/T_Generic_N.uexp" 870
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Normals.uasset" 871
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Normals.uexp" 872
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Transmission_Body.uasset" 873
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Transmission_Body.uexp" 874
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Transmission.uasset" 875
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Transmission.uexp" 876
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission_DS.uasset" 877
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission_DS.uexp" 878
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission.uasset" 879
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Transmission.uexp" 880
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_DiffuseSpecGloss.uasset" 881
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_DiffuseSpecGloss.uexp" 882
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset" 883
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uexp" 884
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_PerceivedBrightness.uasset" 885
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_PerceivedBrightness.uexp" 886
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Emissive.uasset" 887
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Emissive.uexp" 888
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness.uasset" 889
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness.uexp" 890
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_SpecularGlossiness_Body.uasset" 891
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_SpecularGlossiness_Body.uexp" 892
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_SpecularGlossiness.uasset" 893
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_SpecularGlossiness.uexp" 894
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.uasset" 895
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS.uexp" 896
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque.uasset" 897
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque.uexp" 898
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.uasset" 899
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS.uexp" 900
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.uasset" 901
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Mask.uexp" 902
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.uasset" 903
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS.uexp" 904
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.uasset" 905
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_SpecularGlossiness_Blend.uexp" 906
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Sheen.uasset" 907
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Sheen.uexp" 908
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Sheen_Body.uasset" 909
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Sheen_Body.uexp" 910
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Sheen.uasset" 911
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Sheen.uexp" 912
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque_DS.uasset" 913
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque_DS.uexp" 914
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque.uasset" 915
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Opaque.uexp" 916
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask_DS.uasset" 917
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask_DS.uexp" 918
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask.uasset" 919
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Mask.uexp" 920
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend_DS.uasset" 921
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend_DS.uexp" 922
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend.uasset" 923
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Sheen_Blend.uexp" 924
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Default_Body.uasset" 925
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_Default_Body.uexp" 926
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Default.uasset" 927
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_Default.uexp" 928
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque_DS.uasset" 929
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque_DS.uexp" 930
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque.uasset" 931
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Opaque.uexp" 932
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask_DS.uasset" 933
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask_DS.uexp" 934
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask.uasset" 935
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Mask.uexp" 936
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend_DS.uasset" 937
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend_DS.uexp" 938
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend.uasset" 939
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_Default_Blend.uexp" 940
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uasset" 941
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uexp" 942
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Clearcoat.uasset" 943
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialFunctions/MF_Clearcoat.uexp" 944
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_ClearCoat_Body.uasset" 945
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialBodies/MF_ClearCoat_Body.uexp" 946
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_ClearCoat.uasset" 947
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/M_ClearCoat.uexp" 948
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.uasset" 949
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS.uexp" 950
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque.uasset" 951
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Opaque.uexp" 952
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.uasset" 953
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask_DS.uexp" 954
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask.uasset" 955
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Mask.uexp" 956
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.uasset" 957
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend_DS.uexp" 958
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend.uasset" 959
+"../../../Engine/Plugins/Interchange/Runtime/Content/gltf/MaterialInstances/MI_ClearCoat_Blend.uexp" 960
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 961
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uexp" 962
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 963
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uexp" 964
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 965
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uexp" 966
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 967
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uexp" 968
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 969
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uexp" 970
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 971
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uexp" 972
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.ubulk" 973
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 974
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uexp" 975
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 976
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uexp" 977
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.ubulk" 978
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 979
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uexp" 980
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 981
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uexp" 982
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 983
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uexp" 984
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 985
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uexp" 986
+"../../../Engine/Content/EngineResources/FilmGrains/Marcie_Grain_v3_128_M2_000.uasset" 987
+"../../../Engine/Content/EngineResources/FilmGrains/Marcie_Grain_v3_128_M2_000.uexp" 988
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 989
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uexp" 990
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 991
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uexp" 992
+"../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uasset" 993
+"../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uexp" 994
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uasset" 995
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uexp" 996
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset" 997
@@ -1220,148 +1220,148 @@
 "../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uexp" 1219
 "../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uasset" 1220
 "../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uexp" 1221
-"../../../Engine/Content/BasicShapes/Cylinder.ubulk" 1222
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 1223
-"../../../Engine/Content/BasicShapes/Cylinder.uexp" 1224
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Sword.uasset" 1225
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Sword.uexp" 1226
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial_Inst.uasset" 1227
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial_Inst.uexp" 1228
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_TwoHandedSword.uasset" 1229
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_TwoHandedSword.uexp" 1230
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RecurveBow.uasset" 1231
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RecurveBow.uexp" 1232
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_RecurveBow.uasset" 1233
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_RecurveBow.uexp" 1234
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Crossbow.uasset" 1235
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Crossbow.uexp" 1236
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Mythical/DA_Item_Crossbow.uasset" 1237
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Mythical/DA_Item_Crossbow.uexp" 1238
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Hammer.uasset" 1239
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Hammer.uexp" 1240
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Legendary/DA_Item_ThorsHammer.uasset" 1241
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Legendary/DA_Item_ThorsHammer.uexp" 1242
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Heroic/DA_Item_SwordOfAThousandCuts.uasset" 1243
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Heroic/DA_Item_SwordOfAThousandCuts.uexp" 1244
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RustedSword.uasset" 1245
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RustedSword.uexp" 1246
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_RustedSword.uasset" 1247
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_RustedSword.uexp" 1248
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/bow.uasset" 1249
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/bow.uexp" 1250
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uasset" 1251
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uexp" 1252
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uasset" 1253
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uexp" 1254
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uasset" 1255
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uexp" 1256
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uasset" 1257
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uexp" 1258
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uasset" 1259
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uexp" 1260
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uasset" 1261
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uexp" 1262
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring4.uasset" 1263
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring4.uexp" 1264
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Mythical/DA_Item_RingOfTheGods.uasset" 1265
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Mythical/DA_Item_RingOfTheGods.uexp" 1266
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring5.uasset" 1267
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring5.uexp" 1268
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Legendary/DA_Item_RingOfTheAcademy.uasset" 1269
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Legendary/DA_Item_RingOfTheAcademy.uexp" 1270
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_RingOfAdvancedShielding.uasset" 1271
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_RingOfAdvancedShielding.uexp" 1272
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring1.uasset" 1273
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring1.uexp" 1274
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_HealthweaversBand.uasset" 1275
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_HealthweaversBand.uexp" 1276
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring2.uasset" 1277
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring2.uexp" 1278
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_StandardRing.uasset" 1279
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_StandardRing.uexp" 1280
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_RingOfVigor.uasset" 1281
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_RingOfVigor.uexp" 1282
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_ExplorersRing.uasset" 1283
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_ExplorersRing.uexp" 1284
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_BandOfHaste.uasset" 1285
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_BandOfHaste.uexp" 1286
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor.uasset" 1287
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor.uexp" 1288
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Rare/DA_Item_AncientPlate.uasset" 1289
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Rare/DA_Item_AncientPlate.uexp" 1290
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/armor_god.uasset" 1291
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/armor_god.uexp" 1292
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Mythical/DA_Item_ArmorOfTheGods.uasset" 1293
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Mythical/DA_Item_ArmorOfTheGods.uexp" 1294
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor1.uasset" 1295
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor1.uexp" 1296
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Legendary/DA_Item_TitaniumVest.uasset" 1297
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Legendary/DA_Item_TitaniumVest.uexp" 1298
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/cloak.uasset" 1299
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/cloak.uexp" 1300
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Heroic/DA_Item_AntigravityCloak.uasset" 1301
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Heroic/DA_Item_AntigravityCloak.uexp" 1302
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_SteelplateVest.uasset" 1303
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_SteelplateVest.uexp" 1304
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/robe.uasset" 1305
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/robe.uexp" 1306
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_InitiateRobe.uasset" 1307
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_InitiateRobe.uexp" 1308
-"../../../Engine/Content/BasicShapes/Cone.ubulk" 1309
-"../../../Engine/Content/BasicShapes/Cone.uasset" 1310
-"../../../Engine/Content/BasicShapes/Cone.uexp" 1311
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Amulet.uasset" 1312
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Amulet.uexp" 1313
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Amulets/Legendary/DA_Item_StarAmulet.uasset" 1314
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Amulets/Legendary/DA_Item_StarAmulet.uexp" 1315
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" 1316
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uexp" 1317
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" 1318
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uexp" 1319
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.ubulk" 1320
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" 1321
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.uexp" 1322
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.ubulk" 1323
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.uasset" 1324
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.uexp" 1325
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.ubulk" 1326
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" 1327
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uexp" 1328
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_Solid.uasset" 1329
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_Solid.uexp" 1330
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset" 1331
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_Solid_Blue.uexp" 1332
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.ubulk" 1333
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" 1334
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.uexp" 1335
-"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 1336
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1337
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 1338
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 1339
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1340
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 1341
-"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 1342
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1343
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 1344
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1345
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 1346
-"../../../Engine/Content/EngineSky/SM_SkySphere.ubulk" 1347
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1348
-"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 1349
-"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uasset" 1350
-"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uexp" 1351
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemInfoDisplay.uasset" 1352
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemInfoDisplay.uexp" 1353
-"../../../Engine/Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uasset" 1354
-"../../../Engine/Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uexp" 1355
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/VFX/NS_ItemFountainEffect.uasset" 1356
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/VFX/NS_ItemFountainEffect.uexp" 1357
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_DefaultItemActor.uasset" 1358
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_DefaultItemActor.uexp" 1359
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1360
-"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uexp" 1361
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemSpawnerPlatform.uasset" 1362
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemSpawnerPlatform.uexp" 1363
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" 1222
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uexp" 1223
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.ubulk" 1224
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" 1225
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.uexp" 1226
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.ubulk" 1227
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.uasset" 1228
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Cube.uexp" 1229
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.ubulk" 1230
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" 1231
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uexp" 1232
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemInfoDisplay.uasset" 1233
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemInfoDisplay.uexp" 1234
+"../../../Engine/Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uasset" 1235
+"../../../Engine/Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uexp" 1236
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/VFX/NS_ItemFountainEffect.uasset" 1237
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/VFX/NS_ItemFountainEffect.uexp" 1238
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_DefaultItemActor.uasset" 1239
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_DefaultItemActor.uexp" 1240
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 1241
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uexp" 1242
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemSpawnerPlatform.uasset" 1243
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Blueprints/BP_ItemSpawnerPlatform.uexp" 1244
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_Solid.uasset" 1245
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/M_Solid.uexp" 1246
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_Solid_Blue.uasset" 1247
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_Solid_Blue.uexp" 1248
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.ubulk" 1249
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" 1250
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_ChamferCube.uexp" 1251
+"../../../Engine/Content/EngineSky/T_Sky_Stars.ubulk" 1252
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 1253
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uexp" 1254
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.ubulk" 1255
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 1256
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uexp" 1257
+"../../../Engine/Content/EngineSky/T_Sky_Blue.ubulk" 1258
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 1259
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uexp" 1260
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 1261
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uexp" 1262
+"../../../Engine/Content/EngineSky/SM_SkySphere.ubulk" 1263
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 1264
+"../../../Engine/Content/EngineSky/SM_SkySphere.uexp" 1265
+"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uasset" 1266
+"../../../Engine/Content/EngineSky/M_SimpleSkyDome.uexp" 1267
+"../../../Engine/Content/BasicShapes/Cylinder.ubulk" 1268
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 1269
+"../../../Engine/Content/BasicShapes/Cylinder.uexp" 1270
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Sword.uasset" 1271
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Sword.uexp" 1272
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial_Inst.uasset" 1273
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial_Inst.uexp" 1274
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_TwoHandedSword.uasset" 1275
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_TwoHandedSword.uexp" 1276
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RecurveBow.uasset" 1277
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RecurveBow.uexp" 1278
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_RecurveBow.uasset" 1279
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Rare/DA_Item_RecurveBow.uexp" 1280
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Crossbow.uasset" 1281
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Crossbow.uexp" 1282
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Mythical/DA_Item_Crossbow.uasset" 1283
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Mythical/DA_Item_Crossbow.uexp" 1284
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Hammer.uasset" 1285
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Hammer.uexp" 1286
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Legendary/DA_Item_ThorsHammer.uasset" 1287
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Legendary/DA_Item_ThorsHammer.uexp" 1288
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Heroic/DA_Item_SwordOfAThousandCuts.uasset" 1289
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Heroic/DA_Item_SwordOfAThousandCuts.uexp" 1290
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RustedSword.uasset" 1291
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/RustedSword.uexp" 1292
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_RustedSword.uasset" 1293
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_RustedSword.uexp" 1294
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/bow.uasset" 1295
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/bow.uexp" 1296
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uasset" 1297
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uexp" 1298
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uasset" 1299
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uexp" 1300
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uasset" 1301
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uexp" 1302
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uasset" 1303
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uexp" 1304
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uasset" 1305
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uexp" 1306
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uasset" 1307
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uexp" 1308
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring4.uasset" 1309
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring4.uexp" 1310
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Mythical/DA_Item_RingOfTheGods.uasset" 1311
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Mythical/DA_Item_RingOfTheGods.uexp" 1312
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring5.uasset" 1313
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring5.uexp" 1314
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Legendary/DA_Item_RingOfTheAcademy.uasset" 1315
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Legendary/DA_Item_RingOfTheAcademy.uexp" 1316
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_RingOfAdvancedShielding.uasset" 1317
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_RingOfAdvancedShielding.uexp" 1318
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring1.uasset" 1319
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring1.uexp" 1320
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_HealthweaversBand.uasset" 1321
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Heroic/DA_Item_HealthweaversBand.uexp" 1322
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring2.uasset" 1323
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring2.uexp" 1324
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_StandardRing.uasset" 1325
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_StandardRing.uexp" 1326
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_RingOfVigor.uasset" 1327
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_RingOfVigor.uexp" 1328
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_ExplorersRing.uasset" 1329
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_ExplorersRing.uexp" 1330
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_BandOfHaste.uasset" 1331
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Common/DA_Item_BandOfHaste.uexp" 1332
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor.uasset" 1333
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor.uexp" 1334
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Rare/DA_Item_AncientPlate.uasset" 1335
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Rare/DA_Item_AncientPlate.uexp" 1336
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/armor_god.uasset" 1337
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/armor_god.uexp" 1338
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Mythical/DA_Item_ArmorOfTheGods.uasset" 1339
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Mythical/DA_Item_ArmorOfTheGods.uexp" 1340
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor1.uasset" 1341
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Armor1.uexp" 1342
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Legendary/DA_Item_TitaniumVest.uasset" 1343
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Legendary/DA_Item_TitaniumVest.uexp" 1344
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/cloak.uasset" 1345
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/cloak.uexp" 1346
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Heroic/DA_Item_AntigravityCloak.uasset" 1347
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Heroic/DA_Item_AntigravityCloak.uexp" 1348
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_SteelplateVest.uasset" 1349
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_SteelplateVest.uexp" 1350
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/robe.uasset" 1351
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/robe.uexp" 1352
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_InitiateRobe.uasset" 1353
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Body/Common/DA_Item_InitiateRobe.uexp" 1354
+"../../../Engine/Content/BasicShapes/Cone.ubulk" 1355
+"../../../Engine/Content/BasicShapes/Cone.uasset" 1356
+"../../../Engine/Content/BasicShapes/Cone.uexp" 1357
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Amulet.uasset" 1358
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Amulet.uexp" 1359
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Amulets/Legendary/DA_Item_StarAmulet.uasset" 1360
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Amulets/Legendary/DA_Item_StarAmulet.uexp" 1361
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" 1362
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uexp" 1363
 "../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1364
 "../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1365
 "../../../Engine/Content/Maps/Entry.uexp" 1366
