@@ -993,233 +993,233 @@
 "../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uexp" 992
 "../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uasset" 993
 "../../../Engine/Content/EditorMaterials/Dataflow/DataflowVertexMaterial.uexp" 994
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uasset" 995
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uexp" 996
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset" 997
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uexp" 998
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uasset" 999
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uexp" 1000
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.ubulk" 1001
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uasset" 1002
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uexp" 1003
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.ubulk" 1004
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uasset" 1005
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uexp" 1006
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uasset" 1007
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uexp" 1008
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 1009
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 1010
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 1011
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 1012
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.ubulk" 1013
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uasset" 1014
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uexp" 1015
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uasset" 1016
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uexp" 1017
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.ubulk" 1018
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uasset" 1019
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uexp" 1020
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.ubulk" 1021
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uasset" 1022
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uexp" 1023
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.ubulk" 1024
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uasset" 1025
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uexp" 1026
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uasset" 1027
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uexp" 1028
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 1029
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 1030
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.ubulk" 1031
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uasset" 1032
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uexp" 1033
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.ubulk" 1034
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uasset" 1035
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uexp" 1036
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uasset" 1037
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uexp" 1038
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uasset" 1039
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uexp" 1040
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uasset" 1041
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uexp" 1042
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uasset" 1043
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uexp" 1044
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" 1045
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uexp" 1046
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uasset" 1047
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uexp" 1048
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Animations/Jog_Fwd.uasset" 1049
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Animations/Jog_Fwd.uexp" 1050
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/RTG_Mannequin.uasset" 1051
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/RTG_Mannequin.uexp" 1052
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/IK_Mannequin.uasset" 1053
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/IK_Mannequin.uexp" 1054
-"../../../Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uasset" 1055
-"../../../Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uexp" 1056
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset" 1057
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uexp" 1058
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uasset" 1059
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uexp" 1060
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uasset" 1061
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uexp" 1062
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uasset" 1063
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uexp" 1064
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uasset" 1065
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uexp" 1066
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uasset" 1067
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uexp" 1068
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uasset" 1069
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uexp" 1070
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uasset" 1071
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uexp" 1072
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uasset" 1073
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uexp" 1074
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uasset" 1075
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uexp" 1076
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uasset" 1077
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uexp" 1078
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uasset" 1079
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uexp" 1080
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uasset" 1081
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uexp" 1082
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset" 1083
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uexp" 1084
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uasset" 1085
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uexp" 1086
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uasset" 1087
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uexp" 1088
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uasset" 1089
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uexp" 1090
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uasset" 1091
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uexp" 1092
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uasset" 1093
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uexp" 1094
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uasset" 1095
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uexp" 1096
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uasset" 1097
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uexp" 1098
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uasset" 1099
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uexp" 1100
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uasset" 1101
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uexp" 1102
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uasset" 1103
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uexp" 1104
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uasset" 1105
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uexp" 1106
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uasset" 1107
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uexp" 1108
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uasset" 1109
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uexp" 1110
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uasset" 1111
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uexp" 1112
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uasset" 1113
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uexp" 1114
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uasset" 1115
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uexp" 1116
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uasset" 1117
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uexp" 1118
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset" 1119
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Quinn.uexp" 1120
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.ubulk" 1121
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uasset" 1122
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uexp" 1123
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.ubulk" 1124
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset" 1125
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uexp" 1126
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.ubulk" 1127
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uasset" 1128
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uexp" 1129
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.ubulk" 1130
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset" 1131
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uexp" 1132
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset" 1133
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uexp" 1134
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.ubulk" 1135
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset" 1136
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uexp" 1137
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.ubulk" 1138
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset" 1139
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uexp" 1140
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.ubulk" 1141
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset" 1142
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uexp" 1143
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset" 1144
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uexp" 1145
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" 1146
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uexp" 1147
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uasset" 1148
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uexp" 1149
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uasset" 1150
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uexp" 1151
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uasset" 1152
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uexp" 1153
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uasset" 1154
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uexp" 1155
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uasset" 1156
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uexp" 1157
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uasset" 1158
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uexp" 1159
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uasset" 1160
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uexp" 1161
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uasset" 1162
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uexp" 1163
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uasset" 1164
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uexp" 1165
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uasset" 1166
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uexp" 1167
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uasset" 1168
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uexp" 1169
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uasset" 1170
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uexp" 1171
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uasset" 1172
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uexp" 1173
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uasset" 1174
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uexp" 1175
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uasset" 1176
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uexp" 1177
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uasset" 1178
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uexp" 1179
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uasset" 1180
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uexp" 1181
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uasset" 1182
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uexp" 1183
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uasset" 1184
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uexp" 1185
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uasset" 1186
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uexp" 1187
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uasset" 1188
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uexp" 1189
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uasset" 1190
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uexp" 1191
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uasset" 1192
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uexp" 1193
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uasset" 1194
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uexp" 1195
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uasset" 1196
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uexp" 1197
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uasset" 1198
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uexp" 1199
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uasset" 1200
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uexp" 1201
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uasset" 1202
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uexp" 1203
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uasset" 1204
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uexp" 1205
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny.uasset" 1206
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny.uexp" 1207
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/Mannequin_LODSettings.uasset" 1208
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/Mannequin_LODSettings.uexp" 1209
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 1210
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uexp" 1211
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 1212
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uexp" 1213
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uasset" 1214
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uexp" 1215
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uasset" 1216
-"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uexp" 1217
-"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uasset" 1218
-"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uexp" 1219
-"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uasset" 1220
-"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uexp" 1221
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 995
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uexp" 996
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 997
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uexp" 998
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uasset" 999
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeLUT3D.uexp" 1000
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uasset" 1001
+"../../../Engine/Content/EngineMaterials/Substrate/Volume/SubstrateSimpleVolumeEnvLUT3D.uexp" 1002
+"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uasset" 1003
+"../../../Engine/Content/EngineMaterials/Substrate/GLints2/AGlintTex2dArray2.uexp" 1004
+"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uasset" 1005
+"../../../Engine/Content/EngineMaterials/Substrate/GLints/AGlintTex2dArray.uexp" 1006
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uasset" 1007
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uexp" 1008
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset" 1009
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uexp" 1010
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uasset" 1011
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uexp" 1012
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.ubulk" 1013
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uasset" 1014
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uexp" 1015
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.ubulk" 1016
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uasset" 1017
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uexp" 1018
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uasset" 1019
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uexp" 1020
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 1021
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uexp" 1022
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 1023
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uexp" 1024
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.ubulk" 1025
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uasset" 1026
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uexp" 1027
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uasset" 1028
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uexp" 1029
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.ubulk" 1030
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uasset" 1031
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uexp" 1032
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.ubulk" 1033
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uasset" 1034
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uexp" 1035
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.ubulk" 1036
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uasset" 1037
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uexp" 1038
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uasset" 1039
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uexp" 1040
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 1041
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uexp" 1042
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.ubulk" 1043
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uasset" 1044
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uexp" 1045
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.ubulk" 1046
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uasset" 1047
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uexp" 1048
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uasset" 1049
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uexp" 1050
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uasset" 1051
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uexp" 1052
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uasset" 1053
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uexp" 1054
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uasset" 1055
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uexp" 1056
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" 1057
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uexp" 1058
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uasset" 1059
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uexp" 1060
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Animations/Jog_Fwd.uasset" 1061
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequin_UE4/Animations/Jog_Fwd.uexp" 1062
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/RTG_Mannequin.uasset" 1063
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/RTG_Mannequin.uexp" 1064
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/IK_Mannequin.uasset" 1065
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/IK_Mannequin.uexp" 1066
+"../../../Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uasset" 1067
+"../../../Engine/Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uexp" 1068
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset" 1069
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uexp" 1070
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uasset" 1071
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uexp" 1072
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uasset" 1073
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uexp" 1074
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uasset" 1075
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uexp" 1076
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uasset" 1077
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uexp" 1078
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uasset" 1079
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uexp" 1080
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uasset" 1081
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uexp" 1082
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uasset" 1083
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uexp" 1084
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uasset" 1085
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uexp" 1086
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uasset" 1087
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uexp" 1088
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uasset" 1089
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uexp" 1090
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uasset" 1091
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uexp" 1092
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uasset" 1093
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uexp" 1094
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset" 1095
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uexp" 1096
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uasset" 1097
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uexp" 1098
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uasset" 1099
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uexp" 1100
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uasset" 1101
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uexp" 1102
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uasset" 1103
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uexp" 1104
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uasset" 1105
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uexp" 1106
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uasset" 1107
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uexp" 1108
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uasset" 1109
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uexp" 1110
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uasset" 1111
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uexp" 1112
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uasset" 1113
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uexp" 1114
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uasset" 1115
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uexp" 1116
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uasset" 1117
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uexp" 1118
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uasset" 1119
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uexp" 1120
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uasset" 1121
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uexp" 1122
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uasset" 1123
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uexp" 1124
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uasset" 1125
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uexp" 1126
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uasset" 1127
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uexp" 1128
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uasset" 1129
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uexp" 1130
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset" 1131
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Quinn.uexp" 1132
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.ubulk" 1133
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uasset" 1134
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MSR_MSK.uexp" 1135
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.ubulk" 1136
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uasset" 1137
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_CCRCCPlastic_MSK.uexp" 1138
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.ubulk" 1139
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uasset" 1140
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_Tan.uexp" 1141
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.ubulk" 1142
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset" 1143
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uexp" 1144
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset" 1145
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uexp" 1146
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.ubulk" 1147
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset" 1148
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uexp" 1149
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.ubulk" 1150
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uasset" 1151
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_ASAOPMASK_MSK.uexp" 1152
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.ubulk" 1153
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset" 1154
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uexp" 1155
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset" 1156
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uexp" 1157
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" 1158
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uexp" 1159
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uasset" 1160
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uexp" 1161
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uasset" 1162
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uexp" 1163
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uasset" 1164
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uexp" 1165
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uasset" 1166
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uexp" 1167
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uasset" 1168
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uexp" 1169
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uasset" 1170
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uexp" 1171
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uasset" 1172
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uexp" 1173
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uasset" 1174
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uexp" 1175
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uasset" 1176
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uexp" 1177
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uasset" 1178
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uexp" 1179
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uasset" 1180
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uexp" 1181
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uasset" 1182
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uexp" 1183
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uasset" 1184
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uexp" 1185
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uasset" 1186
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uexp" 1187
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uasset" 1188
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uexp" 1189
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uasset" 1190
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uexp" 1191
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uasset" 1192
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uexp" 1193
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uasset" 1194
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uexp" 1195
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uasset" 1196
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uexp" 1197
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uasset" 1198
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uexp" 1199
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uasset" 1200
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uexp" 1201
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uasset" 1202
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uexp" 1203
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uasset" 1204
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uexp" 1205
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uasset" 1206
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uexp" 1207
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uasset" 1208
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uexp" 1209
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uasset" 1210
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uexp" 1211
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uasset" 1212
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uexp" 1213
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uasset" 1214
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uexp" 1215
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uasset" 1216
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uexp" 1217
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny.uasset" 1218
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/SKM_Manny.uexp" 1219
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/Mannequin_LODSettings.uasset" 1220
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Meshes/Mannequin_LODSettings.uexp" 1221
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" 1222
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uexp" 1223
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/LevelPrototyping/Meshes/SM_Ramp.ubulk" 1224
@@ -1297,14 +1297,14 @@
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/bow.uexp" 1296
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uasset" 1297
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Longbow.uexp" 1298
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uasset" 1299
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uexp" 1300
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uasset" 1301
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uexp" 1302
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uasset" 1303
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uexp" 1304
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uasset" 1305
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uexp" 1306
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uasset" 1299
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/boomerang.uexp" 1300
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uasset" 1301
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Weapons/Common/DA_Item_Boomerang.uexp" 1302
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uasset" 1303
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring3.uexp" 1304
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uasset" 1305
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfEnhancedVigor.uexp" 1306
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uasset" 1307
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Rings/Rare/DA_Item_RingOfAcrobatics.uexp" 1308
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Images/Ring4.uasset" 1309
@@ -1362,9 +1362,11 @@
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/DataAssets/Items/Amulets/Legendary/DA_Item_StarAmulet.uexp" 1361
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" 1362
 "C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uexp" 1363
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1364
-"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1365
-"../../../Engine/Content/Maps/Entry.uexp" 1366
-"../../../Engine/Content/Maps/Entry.umap" 1367
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap.uexp" 1368
-"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap.umap" 1369
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Map/DemoWorld.uexp" 1364
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/Map/DemoWorld.umap" 1365
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 1366
+"../../../Engine/Content/Maps/Entry_BuiltData.uexp" 1367
+"../../../Engine/Content/Maps/Entry.uexp" 1368
+"../../../Engine/Content/Maps/Entry.umap" 1369
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap.uexp" 1370
+"C:/Users/Tony/Documents/Unreal Projects/ItemRollDemo/Content/ThirdPerson/Maps/ThirdPersonMap.umap" 1371
