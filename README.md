@@ -1,5 +1,7 @@
 # Unreal Engine 5 c++ demo of a weighted RNG item generator using data assets.
 
+*** IMPORTANT: If you intend to download and open the project directly via git clone, please make sure you have git lfs installed. ***
+
 ## Video of the item generator in action:
 ### [YouTube video](https://www.youtube.com/watch?v=DjaYxrAhh-s)
 
