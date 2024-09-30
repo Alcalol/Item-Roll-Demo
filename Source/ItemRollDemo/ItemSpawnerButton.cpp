@@ -21,7 +21,10 @@ void AItemSpawnerButton::BroadcastSpawn()
 {
 	for (AItemSpawnerPlatform* Platform : ControlledPlatforms)
 	{
-		Platform->SpawnNewItem();
+		if (Platform)
+		{
+			Platform->SpawnNewItem();
+		}
 	}
 }
 
