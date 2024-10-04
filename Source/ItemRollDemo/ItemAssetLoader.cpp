@@ -19,18 +19,17 @@ void UItemAssetLoader::InitItemAssetLoader(const UItemRarityDataAsset& ItemRarit
 
 const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 {
-	if (ItemsArray.Num() > 0)
-	{
-		TArray<EItemRarity> EmptyRarityList;
-		TArray<EItemType> EmptyTypeList;
-
-		// Use the full GetRandomItem function to respect rarity spawn rates.
-		return GetRandomItem(EmptyRarityList, EmptyTypeList);
-	}
-	else
+	if (ItemsArray.Num() <= 0)
 	{
 		return nullptr;
 	}
+
+	TArray<EItemRarity> EmptyRarityList;
+	TArray<EItemType> EmptyTypeList;
+
+	// Use the full GetRandomItem function to respect rarity spawn rates.
+	return GetRandomItem(EmptyRarityList, EmptyTypeList);
+
 }
 
  const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem(TArray<EItemRarity>& ItemRarityArray, TArray<EItemType>& ItemTypeArray) const
@@ -39,17 +38,16 @@ const UItemsPrimaryDataAsset* UItemAssetLoader::GetRandomItem() const
 	 
 	 GetItemsByRarityAndType(ItemPool, ItemRarityArray, ItemTypeArray);
 
-	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
-	if (ItemPool.Num() > 0)
-	{
-		int ChosenIndex = FMath::RandRange(0, ItemPool.Num() - 1);
-
-		return ItemPool[ChosenIndex];
-	}
-	else
+	if (ItemPool.Num() <= 0)
 	{
 		return nullptr;
 	}
+
+	// The returned pool already has chosen weighted rarity rng and type filter, so we can just randomly select one from the result
+	int ChosenIndex = FMath::RandRange(0, ItemPool.Num() - 1);
+
+	return ItemPool[ChosenIndex];
+
 }
 
 // Accepts blank ItemRarities and ItemTypes, when a specific filter as no entries, assume no filter.
@@ -104,6 +102,8 @@ void UItemAssetLoader::LoadGameItemsAssetData(TArray<FAssetData>& OutAssetArray)
 
 void UItemAssetLoader::InsertAssetsToMap(TArray<FAssetData>& AssetDataArray)
 {
+	ItemsArray.Empty();
+
 	for (FAssetData AssetDataEntry : AssetDataArray)
 	{
 		UObject* ObjectToStore = AssetDataEntry.GetAsset();

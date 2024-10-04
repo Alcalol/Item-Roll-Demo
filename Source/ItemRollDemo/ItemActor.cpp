@@ -72,21 +72,21 @@ void AItemActor::Tick(float DeltaTime)
 
 bool AItemActor::UpdateStaticMesh()
 {
-	if (ItemData && ItemStaticMeshComponent)
+	if (!ItemData || !ItemStaticMeshComponent)
 	{
-		if (UStaticMesh* MeshToUse = ItemData->GetItemStaticMesh())
-		{
-			ItemStaticMeshComponent->SetStaticMesh(MeshToUse);
-		}
-		if (UMaterialInterface* MaterialToUse = ItemData->GetItemMeshMaterial())
-		{
-			ItemStaticMeshComponent->SetMaterial(0, MaterialToUse);
-		}
-
-		return true;
+		return false;
 	}
 
-	return false;
+	if (UStaticMesh* MeshToUse = ItemData->GetItemStaticMesh())
+	{
+		ItemStaticMeshComponent->SetStaticMesh(MeshToUse);
+	}
+	if (UMaterialInterface* MaterialToUse = ItemData->GetItemMeshMaterial())
+	{
+		ItemStaticMeshComponent->SetMaterial(0, MaterialToUse);
+	}
+
+	return true;
 }
 
 void AItemActor::PerformStaticMeshBob()
@@ -111,12 +111,14 @@ void AItemActor::AddLocationDeltaToStaticMesh(FVector& Delta)
 
 void AItemActor::StartNiagaraEffect()
 {
-	if (ItemData)
+	if (!ItemData)
 	{
-		ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), RarityColor);
-
-		ItemNiagaraComponent->Activate();
+		return;
 	}
+
+	ItemNiagaraComponent->SetNiagaraVariableLinearColor(FString("EffectColor"), RarityColor);
+
+	ItemNiagaraComponent->Activate();
 }
 
 void AItemActor::StopNiagaraEffect()

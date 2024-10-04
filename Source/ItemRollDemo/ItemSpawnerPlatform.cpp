@@ -22,32 +22,38 @@ AItemSpawnerPlatform::AItemSpawnerPlatform()
 
 void AItemSpawnerPlatform::SpawnNewItem()
 {
-	if (GameInstance && DefaultItemActor)
+	if (!GameInstance || !DefaultItemActor)
 	{
-		if (CurrentItemActor)
-		{
-			CurrentItemActor->Destroy();
-			CurrentItemActor = nullptr;
-		}
-
-		const UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
-
-		if (NewItemDataAsset && ItemSpawnLocator)
-		{
-			EItemRarity NewRarity = NewItemDataAsset->GetItemRarity();
-
-			const UItemRarityDataAsset* NewRarityAsset = GameInstance->GetRarityDataAsset();
-			FColor NewItemRarityColor = NewRarityAsset->GetRarityColor(NewRarity);
-
-			CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ItemSpawnLocator->GetComponentTransform()));
-
-			if (CurrentItemActor)
-			{
-				CurrentItemActor->ChangeItem(*NewItemDataAsset, NewItemRarityColor);
-				ItemSpawnedEvent(NewItemDataAsset);
-			}
-		}
+		return;
 	}
+
+	if (CurrentItemActor)
+	{
+		CurrentItemActor->Destroy();
+		CurrentItemActor = nullptr;
+	}
+
+	const UItemsPrimaryDataAsset* NewItemDataAsset = GameInstance->GetItemAssetLoader()->GetRandomItem(AllowedItemRarities, AllowedItemTypes);
+
+	if (!NewItemDataAsset || !ItemSpawnLocator)
+	{
+		return;
+	}
+
+	EItemRarity NewRarity = NewItemDataAsset->GetItemRarity();
+
+	const UItemRarityDataAsset* NewRarityAsset = GameInstance->GetRarityDataAsset();
+	FColor NewItemRarityColor = NewRarityAsset->GetRarityColor(NewRarity);
+
+	CurrentItemActor = Cast<AItemActor>(GetWorld()->SpawnActor(DefaultItemActor, &ItemSpawnLocator->GetComponentTransform()));
+
+	if (!CurrentItemActor)
+	{
+		return;
+	}
+
+	CurrentItemActor->ChangeItem(*NewItemDataAsset, NewItemRarityColor);
+	ItemSpawnedEvent(NewItemDataAsset);
 }
 
 void AItemSpawnerPlatform::BeginPlay()
