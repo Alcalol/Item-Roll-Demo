@@ -6,9 +6,9 @@
 ### [YouTube video](https://www.youtube.com/watch?v=DjaYxrAhh-s)
 
 ## Files of interest:
-## - [ItemAssetLoader.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemAssetLoader.h) and [ItemAssetLoader.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemAssetLoader.cpp)
-## - [ItemRarityDataAsset.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemRarityDataAsset.h) and [ItemRarityDataAsset.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemRarityDataAsset.cpp)
-## - [ItemActor.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemActor.h) and [ItemActor.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemActor.cpp)
+### - [ItemAssetLoader.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemAssetLoader.h) and [ItemAssetLoader.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemAssetLoader.cpp)
+### - [ItemRarityDataAsset.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemRarityDataAsset.h) and [ItemRarityDataAsset.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemRarityDataAsset.cpp)
+### - [ItemActor.h](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemActor.h) and [ItemActor.cpp](https://github.com/Alcalol/Item-Roll-Demo/blob/master/Source/ItemRollDemo/ItemActor.cpp)
 
 ## Description:
 - A weighted RNG system that can select an item from a user selected list of rarities, accounting for each rarity's spawn chance.
